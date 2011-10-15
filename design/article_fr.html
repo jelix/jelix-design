@@ -1,0 +1,419 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr_FR" lang="fr_FR">
+<head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type"/>
+    <title>Jelix, framework PHP</title>
+    <link type="text/css" href="design.css" media="all" title="Jelix" rel="stylesheet" />
+    <link type="text/css" href="wiki_screen.css" media="all" title="Jelix" rel="stylesheet" />
+
+    
+</head><body >
+<div id="top-box">
+    <div class="top-container">
+        <div id="accessibility">
+            Raccourcis&nbsp;:
+            <a href="#article">Contenu</a> -
+            <a href="#topmenubar">rubriques</a> -
+            <a href="#submenubar">sous rubriques</a>
+        </div>
+
+        <div id="lang-box">
+            <a href="article.html" hreflang="en" title="english version">EN</a>
+            <strong>FR</strong>
+        </div>
+    </div>
+</div>
+
+<div id="header">
+    <div class="top-container">
+
+        <h1 id="logo">
+             <a href="index_fr.html" title="Page d'accueil du site"><img src="logo_jelix_moyen4.png" alt="Jelix" /></a>
+        </h1>
+
+        <ul id="topmenubar">
+            <li class="selected"><a href="index_fr.html">À propos</a></li>
+            <li><a href="index_fr.html">Téléchargement</a></li>
+            <li><a href="index_fr.html">Docs</a></li>
+            <li><a href="index_fr.html">Community</a></li>
+            <li><a href="index_fr.html">Support</a></li>
+        </ul>
+
+    </div>
+</div>
+<div id="main-content">
+    <div class="top-container">
+
+        <div id="content-header">
+            <ul id="submenubar">
+                <li><a href="index_fr.html">Tutoriels</a></li>
+                <li class="selected"><a href="index_fr.html">Manuel 1.3</a></li>
+                <li><a href="index_fr.html">Manuel 1.2</a></li>
+            
+                <li><a href="index_fr.html">1.1</a></li>
+                <li><a href="index_fr.html">1.0</a></li>
+                <li><a href="index_fr.html">reference API</a></li>
+                <li>
+                    
+                     <form action="" accept-charset="utf-8" class="search" id="dw__search" method="get">
+                <input type="hidden" name="do" value="search" />
+                <input type="text" id="qsearch__in" accesskey="f" name="id" class="edit" title="[F]" />
+                <input type="submit" class="button" value="" id="search-btn" title="Rechercher" />
+            </form>
+                    
+                </li>
+            </ul>
+        </div>
+
+
+
+        <!--<div class="content-box">
+            <h2>Lorem</h2>
+        </div>-->
+
+
+
+
+<!-- ============================ content ===== -->
+
+
+        <div id="article">
+            <div id="article-header">
+                <p><span class="bchead">Piste:</span> <span class="bcsep">&bull;</span>
+                <a href=""  class="breadcrumbs" title="fr:manuel-1.3">manuel-1.3</a>
+                <span class="bcsep">&bull;</span>
+                <span class="curid"><a href=""  class="breadcrumbs" title="fr:manuel-1.3:controleurs">controleurs</a></span></p>
+                <p style="text-align:right;">Wiki: <a href=""  class="action index" accesskey="x" rel="nofollow" title="Index">Index</a> -
+                <a href=""  class="action recent" accesskey="r" rel="nofollow" title="Derniers changements">Derniers changements</a> -
+                <a href="" >Back link</a>
+                </p>
+                
+            </div>
+    
+            <div id="book-page-header">
+                <div class="book-title"><a href="">Guide du développeur</a> <img src="icons/ui-menu-blue.png" alt="" />
+                    <div  class="book-hierarchy">
+                        <ul>
+                            <li>^ <a href="" >Fondamentaux</a></li>
+                        </ul>
+                        <ul><li>^ <a href="" >Développement d'un module</a>
+                            <ul><li><a href="" >Créer un module</a></li>
+                                <li><a href="" >Installer un module</a></li>
+                                <li class="actif"><a href="" >Développer un contrôleur</a></li>
+                                <li><a href="" >Récupération des paramètres HTTP</a></li>
+                                <li><a href="" >Utiliser le contrôleur CRUD</a></li>
+                                <li><a href="" >Un contrôleur pour REST</a></li>
+                            </ul></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="book-edition">Jelix 1.3RC3</div>
+                <h1 class="book-current">Section : Développer un contrôleur</h1>
+    
+                <table class="book-nav">
+                    <tr>
+                        <td class="book-nav-prev">&laquo; <a href=""   title="Section précédente ">Installer un module</a></td>
+                        <td class="book-nav-up">^ <a href=""   title="Section parente">Développement d'un module</a></td>
+                        <td class="book-nav-next"><a href=""   title="Section suivante">Récupération des paramètres HTTP</a> &raquo;</td>
+                    </tr></table>
+                
+                <div class="lang">Autre langue :<a href="article.html" >EN</a></div>
+    
+            </div>
+
+            <!-- TOC START -->
+            <div class="toc">
+            <div class="tocheader toctoggle" id="toc__header">Table des matières</div>
+            <div id="toc__inside">
+            
+            <ul class="toc">
+            <li class="clear">
+            
+            <ul class="toc">
+            <li class="level2"><div class="li"><span class="li"><a href="#convention-de-nommage" class="toc">Convention de nommage</a></span></div>
+            <ul class="toc">
+            <li class="level3"><div class="li"><span class="li"><a href="#fichier" class="toc">Fichier</a></span></div></li>
+            <li class="level3"><div class="li"><span class="li"><a href="#classe" class="toc">Classe</a></span></div></li>
+            
+            </ul>
+            </li>
+            <li class="level2"><div class="li"><span class="li"><a href="#creation-d-un-controleur" class="toc">Création d&#039;un contrôleur</a></span></div></li>
+            <li class="level2"><div class="li"><span class="li"><a href="#services-fournis-par-jcontroller" class="toc">Services fournis par jController</a></span></div>
+            <ul class="toc">
+            <li class="level3"><div class="li"><span class="li"><a href="#recuperer-un-objet-jresponse" class="toc">Récupérer un objet jResponse</a></span></div></li></ul>
+            </li></ul>
+            </li></ul>
+            </div>
+            </div>
+            <!-- TOC END -->
+
+
+            <p>
+            Les contrôleurs sont les objets qui vont effectuer les actions correspondantes à chacune des urls de votre application.
+            </p>
+            
+            <p>
+            Un contrôleur possède une ou plusieurs méthodes correspondant à des actions, qui vont effectuer des traitements et préparer une réponse (html, redirection, …) pour le navigateur.
+            </p>
+            
+            <p>
+            Un contrôleur est toujours dédié à un type de requête particulier.
+            </p>
+    
+            <h2 class="sectionedit1" id="convention-de-nommage">Convention de nommage<a title="Link to this section" class="anchor" href="#convention-de-nommage"> ¶</a></h2>
+    
+            <div class="level2">
+            
+            </div>
+            <div class='secedit editbutton_section editbutton_1'><form class="button btn_secedit" method="post" action="/controleurs"><div class="no"><input type="hidden" name="do" value="edit" /><input type="hidden" name="rev" value="1303547698" /><input type="hidden" name="summary" value="[Convention de nommage] " /><input type="hidden" name="target" value="section" /><input type="hidden" name="range" value="424-459" /><input type="submit" value="Modifier" class="button" title="Convention de nommage" /></div></form></div>
+            <h3 class="sectionedit2" id="fichier">Fichier<a title="Link to this section" class="anchor" href="#fichier"> ¶</a></h3>
+            <div class="level3">
+            
+            <p>
+            Les contrôleurs doivent être stockés dans le répertoire <code class="filename">controllers</code> des modules. Ils ont chacun un nom qui va servir de suffixe ou préfixe. 
+            </p>
+            
+            <p>
+            Le fichier d&#039;un contrôleur a un nom bien précis :
+            </p>
+            <pre class="code"> cccc.tttt.php</pre>
+            
+            <p>
+            où
+            </p>
+            <ul>
+            <li class="level1"><div class="li"> <em>cccc</em> est le nom du contrôleur</div>
+            
+            </li>
+            <li class="level1"><div class="li"> <em>tttt</em> est le type de requête auquel il est dédié.</div>
+            </li>
+            </ul>
+            
+            <p>
+            Par exemple, si vous l&#039;appelez “foo”, et qu&#039;il est dédié au type de requête “classic” (ce qui sera le plus souvent le cas), le nom du fichier sera <em>foo.classic.php</em>.
+            </p>
+            
+            </div>
+            <div class='secedit editbutton_section editbutton_2'><form class="button btn_secedit" method="post" action="/controleurs"><div class="no"><input type="hidden" name="do" value="edit" /><input type="hidden" name="rev" value="1303547698" /><input type="hidden" name="summary" value="[Fichier] " /><input type="hidden" name="target" value="section" /><input type="hidden" name="range" value="460-984" /><input type="submit" value="Modifier" class="button" title="Fichier" /></div></form></div>
+            <h3 class="sectionedit3" id="classe">Classe<a title="Link to this section" class="anchor" href="#classe"> ¶</a></h3>
+            <div class="level3">
+            
+            <p>
+            La classe d&#039;un contrôleur doit toujours avoir le suffixe “Ctrl”. Dans le cas d&#039;un contrôleur nommé “foo”, sa classe devra être nommée “fooCtrl”.
+            </p>
+            
+            </div>
+            <div class='secedit editbutton_section editbutton_3'><form class="button btn_secedit" method="post" action="/controleurs"><div class="no"><input type="hidden" name="do" value="edit" /><input type="hidden" name="rev" value="1303547698" /><input type="hidden" name="summary" value="[Classe] " /><input type="hidden" name="target" value="section" /><input type="hidden" name="range" value="985-1153" /><input type="submit" value="Modifier" class="button" title="Classe" /></div></form></div>
+            <h2 class="sectionedit4" id="creation-d-un-controleur">Création d&#039;un contrôleur<a title="Link to this section" class="anchor" href="#creation-d-un-controleur"> ¶</a></h2>
+            
+            <div class="level2">
+            
+            <p>
+            Chaque module a en principe un contrôleur principal, que l&#039;on appelle généralement “default”. On va prendre ce nom pour l&#039;exemple de création de contrôleur.
+            </p>
+            
+            <p>
+            En suivant les conventions de nommage, on crée donc une classe de nom <code class="classname">defaultCtrl</code> dans un fichier <code class="filename">controllers/default.classic.php</code>.
+            </p>
+            
+            <p>
+            Voici le code source minimal :
+            </p>
+            <pre class="code php"><span class="kw2">class</span> defaultCtrl <span class="kw2">extends</span> jController <span class="br0">&#123;</span>
+            &nbsp;
+            <span class="br0">&#125;</span></pre>
+            
+            <p>
+            Une classe de contrôleur doit toujours hériter de la classe <code class="classname">jController</code>.
+            
+            </p>
+            
+            <p>
+            Ensuite, il faut ajouter au moins autant de méthodes que d&#039;actions prises en charge par le contrôleur. Ces méthodes sont publiques, n&#039;ont pas d&#039;arguments, et doivent renvoyer un objet de type <code class="classname">jResponse</code>.
+            </p>
+            
+            <p>
+            Voici un exemple de méthode pour une action “index” :
+            </p>
+            <pre class="code php"><span class="kw2">class</span> defaultCtrl <span class="kw2">extends</span> jController <span class="br0">&#123;</span>
+            
+            &nbsp;
+                <span class="kw2">public</span> <span class="kw2">function</span> index<span class="br0">&#40;</span><span class="br0">&#41;</span><span class="br0">&#123;</span>
+                   <span class="re0">$rep</span> <span class="sy0">=</span> <span class="re0">$this</span><span class="sy0">-&gt;</span><span class="me1">getResponse</span><span class="br0">&#40;</span><span class="st_h">'html'</span><span class="br0">&#41;</span><span class="sy0">;</span>
+            
+                   <span class="re0">$rep</span><span class="sy0">-&gt;</span><span class="me1">addContent</span><span class="br0">&#40;</span><span class="st_h">'&lt;p&gt;Test&lt;/p&gt;'</span><span class="br0">&#41;</span><span class="sy0">;</span>
+                   <span class="kw1">return</span> <span class="re0">$rep</span><span class="sy0">;</span>
+            
+                <span class="br0">&#125;</span>
+            <span class="br0">&#125;</span></pre>
+            
+            <p>
+            La méthode <code class="methodname">index()</code> d&#039;un contrôleur est toujours considérée comme étant l&#039;action par défaut du contrôleur.
+            </p>
+            
+            <p>
+            Quand jelix n&#039;arrive pas, à partir de l&#039;url, à déterminer le nom de l&#039;action, voire celui du contrôleur, alors Jelix appelera le contrôleur “default” du module concerné, et la méthode <code class="methodname">index()</code>.
+            
+            </p>
+            
+            <p>
+            Il est donc recommandé d&#039;avoir un contrôleur “default” dans un module et une méthode “index” dans chaque contrôleur.
+            </p>
+            
+            </div>
+            
+            <h4 id="utilisation-d-un-constructeur-de-classe">Utilisation d&#039;un constructeur de classe<a title="Link to this section" class="anchor" href="#utilisation-d-un-constructeur-de-classe"> ¶</a></h4>
+            <div class="level4">
+            
+            <p>
+            
+            Pour utiliser un constructeur de classe dans un contrôleur, il est nécessaire de mentionner le constructeur parent ainsi que de le lier à l&#039;argument $request.
+            Exemple: 
+            </p>
+            <pre class="code php"><span class="kw2">class</span> defaultCtrl <span class="kw2">extends</span> jController <span class="br0">&#123;</span>
+                <span class="kw2">function</span> __construct<span class="br0">&#40;</span><span class="re0">$request</span><span class="br0">&#41;</span> <span class="br0">&#123;</span>
+            
+                    parent<span class="sy0">::</span>__construct<span class="br0">&#40;</span><span class="re0">$request</span><span class="br0">&#41;</span><span class="sy0">;</span>
+                    <span class="coMULTI">/* Reste du code du contrôleur ici */</span>
+                <span class="br0">&#125;</span>
+            <span class="br0">&#125;</span></pre>
+            
+            </div>
+            <div class='secedit editbutton_section editbutton_4'><form class="button btn_secedit" method="post" action="/controleurs"><div class="no"><input type="hidden" name="do" value="edit" /><input type="hidden" name="rev" value="1303547698" /><input type="hidden" name="summary" value="[Création d'un contrôleur] " /><input type="hidden" name="target" value="section" /><input type="hidden" name="range" value="1154-3011" /><input type="submit" value="Modifier" class="button" title="Création d'un contrôleur" /></div></form></div>
+            <h2 class="sectionedit5" id="services-fournis-par-jcontroller">Services fournis par jController<a title="Link to this section" class="anchor" href="#services-fournis-par-jcontroller"> ¶</a></h2>
+            
+            <div class="level2">
+            
+            <p>
+            Dans une action, vous avez un certains nombre de méthodes à votre disposition.
+            </p>
+            
+            </div>
+            <div class='secedit editbutton_section editbutton_5'><form class="button btn_secedit" method="post" action="/controleurs"><div class="no"><input type="hidden" name="do" value="edit" /><input type="hidden" name="rev" value="1303547698" /><input type="hidden" name="summary" value="[Services fournis par jController] " /><input type="hidden" name="target" value="section" /><input type="hidden" name="range" value="3012-3139" /><input type="submit" value="Modifier" class="button" title="Services fournis par jController" /></div></form></div>
+            <h3 class="sectionedit6" id="recuperer-un-objet-jresponse">Récupérer un objet jResponse<a title="Link to this section" class="anchor" href="#recuperer-un-objet-jresponse"> ¶</a></h3>
+            <div class="level3">
+            
+            <p>
+            Vous devez toujours renvoyer un objet dérivant de <code class="classname">jResponse</code>, qui est en fait le “view” du modèle MVC. Il y a un certain nombre d&#039;objets <code class="classname">jResponse</code> fournies par Jelix, permettant de générer du <acronym title="Extensible HyperText Markup Language">XHTML</acronym>, du JSON, du text, du css, du xml, du zip ou même faire des redirections. Chaque type d&#039;objet jResponse est déclaré dans jelix par un mot clé.
+            
+            </p>
+            
+            <p>
+            Aussi, pour récupérer un objet “réponse” précis, vous appelez la méthode <code class="methodname">getResponse()</code> en indiquant le mot clé correspondant au type de réponse que vous voulez. 
+            </p>
+            <pre class="code php">   <span class="re0">$rep</span> <span class="sy0">=</span> <span class="re0">$this</span><span class="sy0">-&gt;</span><span class="me1">getResponse</span><span class="br0">&#40;</span><span class="st_h">'html'</span><span class="br0">&#41;</span><span class="sy0">;</span></pre>
+            
+            <p>
+            <var>$rep</var> contient ici une réponse qui va générer du html. l&#039;objet <var>$rep</var>  est du type <code class="classname">jResponseHtml</code>.
+            </p>
+            
+            <p>
+            Sachez que vous pouvez définir vos propres types de réponses, voire plusieurs types de réponses issues d&#039;un même type, afin d&#039;éviter de dupliquer du code, ou de prendre en charge un format que ne connaît pas jelix. Voyez pour cela <a href="/creer_response" class="wikilink1" title="fr:manuel-1.3:creer_response">la partie sur la création des réponses</a>
+            
+            </p>
+            
+            </div>
+            <div class='secedit editbutton_section editbutton_6'><form class="button btn_secedit" method="post" action=""><div class="no"><input type="hidden" name="do" value="edit" /><input type="hidden" name="rev" value="1303547698" /><input type="hidden" name="summary" value="[Récupérer un objet jResponse] " /><input type="hidden" name="target" value="section" /><input type="hidden" name="range" value="3140-" /><input type="submit" value="Modifier" class="button" title="Récupérer un objet jResponse" /></div></form></div>
+
+
+            <div id="book-page-footer">
+                <table class="book-nav">
+                <tr>
+                    <td class="book-nav-prev">&laquo; <a href=""   title="Section précédente ">Installer un module</a></td>
+                    <td class="book-nav-up">^ <a href=""   title="Section parente">Développement d'un module</a></td>
+            
+                    <td class="book-nav-next"><a href=""   title="Section suivante">Récupération des paramètres HTTP</a> &raquo;</td>
+                </tr></table>
+
+                <div class="lang">Autre langue :<a href="article.html" >EN</a></div>
+                
+                <div class="book-legal-notice">
+                    Ce manuel est distribué selon les termes de la <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.fr" class="urlextern" title="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.fr"  rel="nofollow">licence Creative Commons by-nc-sa 3.0</a>. Vous pouvez donc reproduire, modifier, distribuer et communiquer ce manuel au public en respectant les conditions suivantes : <strong>Paternité</strong>, <strong>Pas d&#039;Utilisation Commerciale</strong>, <strong>Partage des Conditions Initiales à l&#039;Identique</strong>.
+
+                </div>
+            </div>
+
+            <div id="article-footer">
+
+                <div id="info">
+                    <div class="wfooterinfo"> fr/documentation.txt &middot; Dernière modification: 2011/09/29 12:29 par laurent </div>
+        
+                    <div class="wfooterbuttons"> <form class="button btn_edit" method="post" action="/articles/fr/documentation"><div class="no"><input type="hidden" name="do" value="edit" /><input type="hidden" name="rev" value="" /><input type="submit" value="Modifier cette page" class="button" accesskey="e" title="Modifier cette page [E]" /></div></form> <form class="button btn_revs" method="get" action="/articles/fr/documentation"><div class="no"><input type="hidden" name="do" value="revisions" /><input type="submit" value="Anciennes révisions" class="button" accesskey="o" title="Anciennes révisions [O]" /></div></form>            </div>
+                </div>
+        
+                <div id="authinfo">
+                    <div class="wfooterinfo"> Connecté en tant que : Laurent (laurent) </div>
+                    <div class="wfooterbuttons">
+                        <form class="button btn_admin" method="get" action="/articles/fr/documentation">
+                            <div class="no"><input type="hidden" name="do" value="admin" /><input type="submit" value="Administrer" class="button" title="Administrer" /></div></form>                <form class="button btn_profile" method="get" action="/articles/fr/documentation"><div class="no"><input type="hidden" name="do" value="profile" /><input type="submit" value="Éditer votre profil" class="button" title="Éditer votre profil" /></div></form>                <form class="button btn_logout" method="get" action="/articles/fr/documentation"><div class="no"><input type="hidden" name="do" value="logout" /><input type="hidden" name="sectok" value="fe99f7ee9bb700d33259dc6981514942" /><input type="submit" value="Déconnexion" class="button" title="Déconnexion" /></div></form>                            </div>
+        
+                </div>
+
+            </div>
+        </div>
+
+
+        <div id="content-footer">
+    
+        </div>
+
+
+<!-- ============================ </content> ===== -->
+
+
+
+
+    </div>
+</div>
+<div id="footer">
+    <div class="top-container">
+        <div class="footer-box">
+        <p><img src="logo_jelix_moyen5.png" alt="Jelix" /><br/>
+            est sponsorisé par <a href="http://innophi.com">Innophi</a>.</p>
+        <p>Jelix est publié sous <br/>la licence LGPL</p>
+        </div>
+        
+        <div class="footer-box">
+            <ul>
+                <li><a href="">FAQ</a></li>
+                <li><a href="">hall of fame</a></li>
+                <li><a href="">Credits</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Sitemap</a></li>
+                <li><a href="">Goodies</a></li>
+            </ul>
+        </div>
+
+
+        <div class="footer-box">
+            <ul>
+                <li><a href="">Téléchargement nightlies</a></li>
+                <li><a href="">Changelog</a></li>
+                <li><a href="">Suivi des bugs</a></li>
+                <li><a href="">Roadmap</a></li>
+                <li><a href="">Comment contribuer</a></li>
+                <li><a href="">Dépôt des sources</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-box">
+            <ul>
+                <li><a href="">jtpl standalone</a></li>
+                <li><a href="">jbuildtools</a></li>
+                <li><a href="">wikirenderer</a></li>
+            </ul>
+        </div>
+
+        <p id="footer-legend">
+            Copyright 2006-2011 Jelix team. <br/>
+            Les icônes utilisées sur cette page viennent des paquets
+            <a href="http://schollidesign.deviantart.com/art/Human-O2-Iconset-105344123">Human-O2</a>
+            et <a href="http://www.oxygen-icons.org/">Oxygen</a>.<br/>
+            Design par Laurentj. <br/>
+            <img src="btn_jelix_powered.png" alt="page générée par une application Jelix" />
+        </p>
+    </div>
+</div>
+
+</body>
+</html>
