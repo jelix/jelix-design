@@ -6,7 +6,7 @@ $(document).ready(function() {
     var sections = $("#carrousel .carrousel-sections");
 
 	sections.css("width", ($("#carrousel .carrousel-container").width() * nbSections) );
-  
+    $(".carrousel-previous").css('visibility','hidden');
     var numSection = 0;
     $(".carrousel-next").click(function(event) {
         if(numSection < (nbSections-1) ) {
@@ -14,6 +14,13 @@ $(document).ready(function() {
             $("#carrousel .carrousel-sections").animate({
                 marginLeft : - ($("#carrousel .carrousel-container").width() * numSection)
             });
+            if (numSection == (nbSections-1)) {
+                $(this).css('visibility','hidden');
+            }
+            else{
+                $(this).css('visibility','visible');
+            }
+            $(".carrousel-previous").css('visibility','visible');
         }
         event.preventDefault();
     });
@@ -24,6 +31,12 @@ $(document).ready(function() {
             $("#carrousel .carrousel-sections").animate({
                 marginLeft : - ($("#carrousel .carrousel-container").width() * numSection)
             });
+            if (numSection == 0) {
+                $(this).css('visibility','hidden');
+            }
+            else
+                $(this).css('visibility','visible');
+            $(".carrousel-next").css('visibility','visible');
         }
         event.preventDefault();
         //
@@ -37,8 +50,6 @@ $(document).ready(function() {
     
             }
         ).click(function(event){event.preventDefault();})
-
-
 });
     
     

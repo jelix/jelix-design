@@ -372,7 +372,7 @@ code.returnvalue {}
 }
 
 #jelix-users-description p { display:none; margin:0 3em 5px 10em; text-align:center;}
-#jelix-users-description { height:1.5em;}
+#jelix-users-description { min-height:1.5em;}
 
 
 .home-item {
