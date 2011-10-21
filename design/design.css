@@ -328,7 +328,7 @@ code.returnvalue {}
 .carrousel-container {
     float:left;
     width:700px;
-    height:298px;
+    height:310px;
     background-color:white;
     border:1px solid #BABABA;
     -moz-border-radius:5px;
@@ -364,12 +364,16 @@ code.returnvalue {}
 #jelix-users ul {
     text-align:center;
     list-style-type:none;
-    margin:0 0 1em 0; padding:0;
+    margin: 0.83em 0; padding:0;
 }
 #jelix-users li {
     display:inline;
     padding:0 5px;
 }
+
+#jelix-users-description p { display:none; margin:0 3em 5px 10em; text-align:center;}
+#jelix-users-description { height:1.5em;}
+
 
 .home-item {
     float:left;
@@ -505,8 +509,8 @@ code.returnvalue {}
 
 #article ul { list-style-image:url(puce_page.png); }
 #article li { padding-bottom:0.3em;}
-#article li.open { list-style-image: url(../lib/tpl/default/images/open.gif); }
-#article li.closed { list-style-image: url(../lib/tpl/default/images/closed.gif); }
+#article li.open { list-style-image: url(open.gif); }
+#article li.closed { list-style-image: url(closed.gif); }
 
 #article h1 { font-size:1.7em; color: #c03033; margin:0; }
 #article h1 a { color: #c03033; }
@@ -543,7 +547,7 @@ code.returnvalue {}
 #article .bookcontents li.chapter li.section { font-size:0.9em; font-weight:normal; }
 
 #article a.interwiki{
-   background: transparent url(../lib/images/interwiki.png) 0px 1px no-repeat;
+   background: transparent url(interwiki.png) 0px 1px no-repeat;
    padding-left: 16px;
 }
 
