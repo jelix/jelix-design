@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+            "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+   <meta http-equiv="Content-Script-Type" content="text/javascript" />
+   <meta http-equiv="Content-Style-Type" content="text/css" />
+   <title>documentation - Jelix.org</title>
+   <meta name="description" content="Framework PHP Jelix" />
+   <meta name="keywords" content="Framework PHP Jelix standards services web mvc CSS XHTML XUL" />
+   <meta name="DC.title" content="Framework PHP Jelix" />
+
+   <meta name="DC.description" content="Framework PHP Jelix web site" />
+
+   <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+   <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+
+   <link rel="top"   href="/" title="Page d'accueil du site" />
+   <link rel="section"   href="/forums/" title="Forums" />
+   <link rel="section"   href="/articles/" title="Wiki" />
+  <meta name="date" content="2007-06-30T09:16:55+0200" />
+  <meta name="robots" content="noindex,nofollow" />
+
+  <meta name="generator" content="DokuWiki snapshot?" />
+  <link rel="start" href="/" />
+  <link rel="contents" href="/articles/documentation?do=index" title="" />
+  <link rel="alternate" type="application/rss+xml" title="Recent Changes" href="/feed.php" />
+  <link rel="alternate" type="application/rss+xml" title="Current Namespace" href="/feed.php?mode=list&amp;ns=" />
+  <link rel="alternate" type="text/html" title="Plain HTML" href="/articles/documentation?do=export_html" />
+  <link rel="alternate" type="text/plain" title="Wiki Markup" href="/articles/documentation?do=export_raw" />
+
+  <link rel="stylesheet" type="text/css" href="/lib/plugins/plugin/style.css" />
+
+   <link rel="stylesheet" type="text/css" href="design/design.css" media="screen" title="jelix" />
+</head>
+<body>
+<div id="header">
+   <h1><a href="/" title="retour à l'accueil"><img src="design/logo_jelix_moyen.png" alt="Jelix" /></a>
+   PHP5 Framework
+   </h1>
+   
+   <div  id="search">
+        <div id="accessibility">Quick links:
+            <a href="#content">Contenu</a> -
+            <a href="#content-menu">Menu Contenu</a> -
+            <a href="#topmenubar">rubriques</a> - 
+            <a href="#submenubar">sous-rubriques</a> -
+            <a href="#topmenubar_right">Sites annexes</a>
+        </div>
+        <form action="/articles/" accept-charset="utf-8" name="search" onsubmit="">
+            <div>
+            <input type="hidden" name="do" value="search" />
+            <input type="text" value="Search"  onfocus="this.value=''" id="qsearch_in" accesskey="f" name="id" class="edit" />
+            <input type="submit" value="Ok" class="button" /></div>
+        </form>
+    </div>
+</div>
+
+<ul id="topmenubar_right">
+    <li><a href="#">Contribute</a></li>
+    <li><a href="#">Forge</a></li>
+</ul>
+
+<ul id="topmenubar">
+    <li><a href="#">Home</a></li>
+    <li class="selected"><a href="#">About</a></li>
+    <li><a href="#">Download</a></li>
+    <li><a href="#">Documentation</a></li>
+    <li><a href="#">Community</a></li>
+</ul>
+<ul id="submenubar">
+    <li><a href="#">Feature</a></li>
+    <li><a href="#">Licence</a></li>
+    <li><a href="#">History</a></li>
+</ul>
+
+
+
+<div id="main">
+
+
+
+    <div id="content-menu">
+        <h3>Topics</h3>
+        <ul class="toc">
+            <li class="level1"><span class="li"><a href="#documentation-utilisateur" class="toc">Documentation utilisateur</a></span>
+                <ul class="toc">
+            
+                    <li class="level2"><span class="li"><a href="#installation" class="toc">Installation</a></span></li>
+                    <li class="level2"><span class="li"><a href="#tutoriels" class="toc">Tutoriels</a></span></li>
+                    <li class="level2"><span class="li"><a href="#manuel-du-developpeur" class="toc">Manuel du développeur</a></span></li>
+                    <li class="level2"><span class="li"><a href="#developpement-avance" class="toc">Développement avancé</a></span></li>
+                    <li class="level2"><span class="li"><a href="#utiliser-les-classe-utilitaires" class="toc">Utiliser les classe utilitaires</a></span></li>
+                    <li class="level2"><span class="li"><a href="#documentation-de-reference-api" class="toc">Documentation de référence (API)</a></span></li>
+                </ul>
+            </li>
+        </ul>
+            
+        <h3>Manuel</h3>
+    
+        
+            <ul>
+            <li><a href="/articles/manuel/installation">Installation</a></li>
+            <li><a href="/articles/manuel/principes">Principes</a></li>
+            <li><a href="/articles/manuel/modules">Développer un module</a></li>
+    
+            <li><a href="/articles/manuel/daos">jDAO</a></li>
+            <li><a href="/articles/manuel/bd">jDb</a></li>
+            <li><a href="/articles/manuel/zones">Zones</a></li>
+            <li><a href="/articles/manuel/templates">Templates</a></li>
+            <li><a href="/articles/manuel/locales">Localisation</a></li>
+            <li><a href="/articles/manuel/authentification">Authentification</a></li>
+    
+            <li><a href="/articles/manuel/droits">Droits</a></li>
+            <li><a href="/articles/manuel/events">Évènements</a></li>
+            <li><a href="/articles/documentation">Autres...</a></li>
+            </ul>
+        
+        <h3>Wiki</h3>
+        <ul>
+            <li><a href="/articles/documentation?do=index" onclick="" onkeypress="" class="action index" accesskey="x">Index</a></li>
+            <li><a href="/articles/documentation?do=recent" onclick="" onkeypress="" class="action recent" accesskey="r">Derniers changements</a></li>
+        </ul>
+    </div>
+   
+    
+    <div id="content">
+
+        <div id="content-header"> 
+            <span class="bcsep">&raquo;</span> 
+            <a href="/articles/revuewebpresse" class="breadcrumbs" title="revuewebpresse">revuewebpresse</a> 
+            <span class="bcsep">&raquo;</span> 
+            <a href="/articles/documentation"  class="breadcrumbs" title="documentation">documentation</a> 
+            <span class="bcsep">&raquo;</span> 
+            <a href="/articles/accueil"  class="breadcrumbs" title="accueil">accueil</a> 
+            <span class="bcsep">&raquo;</span> 
+            <span class="curid"><a href="/articles/goodies"  class="breadcrumbs" title="goodies">goodies</a></span>
+        </div>
+
+
+
+        <a name="documentation-utilisateur"></a><h1>Documentation utilisateur</h1>
+        <div class="level1">
+        
+        </div>
+        <div class="secedit"><form class="button" method="post" action="/articles/documentation" onsubmit=""><input type="hidden" name="do" value="edit" /><input type="hidden" name="lines" value="1-42" /><input type="submit" value="Éditer" class="button" /></form></div>
+        <a name="installation"></a><h2>Installation</h2>
+        <div class="level2">
+        <ul>
+        <li class="level1"><div class="li"> <a href="/articles/manuel/installation" class="wikilink1" title="manuel:installation" onclick="" onkeypress="">Installation</a></div>
+        <ul>
+        <li class="level2"><div class="li"> <a href="/articles/manuel/installation/prerequis" class="wikilink1" title="manuel:installation:prerequis" onclick="" onkeypress="">Logiciels pré-requis sur le serveur</a></div>
+        
+        </li>
+        <li class="level2"><div class="li"> <a href="/articles/manuel/installation/sources" class="wikilink1" title="manuel:installation:sources" onclick="" onkeypress="">Installation de l'archive de jelix</a></div>
+        </li>
+        <li class="level2"><div class="li"> <a href="/articles/manuel/installation/application" class="wikilink1" title="manuel:installation:application" onclick="" onkeypress="">Installation d'une application</a> pour jelix</div>
+        </li>
+        <li class="level2"><div class="li"> <a href="/articles/manuel/installation/production" class="wikilink1" title="manuel:installation:production" onclick="" onkeypress="">Installation sur un serveur de production</a></div>
+        </li>
+        </ul>
+        </li>
+        
+        </ul>
+        
+        </div>
+        <div class="secedit"><form class="button" method="post" action="/articles/documentation" onsubmit=""><input type="hidden" name="do" value="edit" /><input type="hidden" name="lines" value="43-429" /><input type="submit" value="Éditer" class="button" /></form></div>
+        <a name="tutoriels"></a><h2>Tutoriels</h2>
+        <div class="level2">
+        <ul>
+        <li class="level1"><div class="li"> <a href="/articles/manuel/minitutoriel" class="wikilink1" title="manuel:minitutoriel" onclick="" onkeypress="">Mini tutoriel</a>, pour découvrir Jelix.</div>
+        </li>
+        <li class="level1"><div class="li"> <a href="/articles/tutoriel" class="wikilink1" title="tutoriel" onclick="" onkeypress="">Tutoriel principal</a> : apprenez à écrire une application de A à Z.</div>
+        
+        </li>
+        <li class="level1"><div class="li"> <a href="/articles/fckeditor" class="wikilink1" title="fckeditor" onclick="" onkeypress="">Intégration de FCKeditor</a> : comment intégrer l&rsquo;éditeur FCKeditor.</div>
+        </li>
+        <li class="level1"><div class="li"> <a href="/articles/tinymce" class="wikilink1" title="tinymce" onclick="" onkeypress="">Intégration de TinyMCE</a> : comment intégrer l&rsquo;éditeur TinyMCE.</div>
+        </li>
+        <li class="level1"><div class="li"> <a href="/articles/tutojform" class="wikilink1" title="tutojform" onclick="" onkeypress="">Tutoriel du jForms et jDao</a> : comment créer un CRUD avec jForms et jDao.</div>
+        
+        </li>
+        <li class="level1"><div class="li"> <a href="/articles/tutojauth" class="wikilink1" title="tutojauth" onclick="" onkeypress="">Tutoriel du jAuth</a> : comment utiliser jAuth </div>
+        </li>
+        </ul>
+        
+        </div>
+        <div class="secedit"><form class="button" method="post" action="/articles/documentation" onsubmit=""><input type="hidden" name="do" value="edit" /><input type="hidden" name="lines" value="430-929" /><input type="submit" value="Éditer" class="button" /></form></div>
+        <a name="manuel-du-developpeur"></a><h2>Manuel du développeur</h2>
+        <div class="level2">
+        <ol>
+        <li class="level1"><div class="li"> <a href="/articles/manuel/principes" class="wikilink1" title="manuel:principes" onclick="" onkeypress="">Principes de fonctionnement</a></div>
+        
+        <ol>
+        <li class="level2"><div class="li"> <a href="/articles/manuel/selecteurs" class="wikilink1" title="manuel:selecteurs" onclick="" onkeypress="">Les sélecteurs</a></div>
+        </li>
+        <li class="level2"><div class="li"> <a href="/articles/manuel/requests" class="wikilink1" title="manuel:requests" onclick="" onkeypress="">Les objets requests</a></div>
+        </li>
+        <li class="level2"><div class="li"> <a href="/articles/manuel/coordinateur" class="wikilink1" title="manuel:coordinateur" onclick="" onkeypress="">Le coordinateur</a></div>
+        </li>
+        <li class="level2"><div class="li"> <a href="/articles/manuel/responses" class="wikilink1" title="manuel:responses" onclick="" onkeypress="">Les objets réponses</a></div>
+        </li>
+        
+        </ol>
+        </li>
+        <li class="level1"><div class="li"> <a href="/articles/manuel/modules" class="wikilink1" title="manuel:modules" onclick="" onkeypress="">Développement d'un module</a></div>
+        <ol>
+        <li class="level2"><div class="li"> <a href="/articles/manuel/modules" class="wikilink1" title="manuel:modules" onclick="" onkeypress="">Créer un module</a></div>
+        </li>
+        <li class="level2"><div class="li"> <a href="/articles/manuel/controleurs" class="wikilink1" title="manuel:controleurs" onclick="" onkeypress="">Développer un contrôleur</a></div>
+        </li>
+        <li class="level2"><div class="li"> Les différents contenus que vous pouvez renvoyer :</div>
+        
+        <ul>
+        <li class="level4"><div class="li"> <a href="/articles/manuel/responsehtml" class="wikilink1" title="manuel:responsehtml" onclick="" onkeypress="">Générer une page Html</a></div>
+        </li>
+        <li class="level4"><div class="li"> <a href="/articles/manuel/responseredirect" class="wikilink1" title="manuel:responseredirect" onclick="" onkeypress="">Faire une redirection</a></div>
+        </li>
+        <li class="level4"><div class="li"> <a href="/articles/manuel/responsetext" class="wikilink1" title="manuel:responsetext" onclick="" onkeypress="">Générer du texte brut</a></div>
+        </li>
+        <li class="level4"><div class="li"> <a href="/articles/manuel/responsexml" class="wikilink1" title="manuel:responsexml" onclick="" onkeypress="">Générer du XML quelconque</a></div>
+        </li>
+        
+        <li class="level4"><div class="li"> <a href="/articles/manuel/responserss" class="wikilink1" title="manuel:responserss" onclick="" onkeypress="">syndication RSS</a></div>
+        </li>
+        <li class="level4"><div class="li"> <a href="/articles/manuel/responseatom" class="wikilink1" title="manuel:responseatom" onclick="" onkeypress="">syndication Atom</a></div>
+        </li>
+        <li class="level4"><div class="li"> <a href="/articles/manuel/responselatex2pdf" class="wikilink1" title="manuel:responselatex2pdf" onclick="" onkeypress="">Générer un PDF à partir d'un contenu latex</a></div>
+        </li>
+        <li class="level4"><div class="li"> <a href="/articles/manuel/responsebinary" class="wikilink1" title="manuel:responsebinary" onclick="" onkeypress="">Renvoyer un fichier binaire</a></div>
+        </li>
+        <li class="level4"><div class="li"> <a href="/articles/manuel/responsezip" class="wikilink1" title="manuel:responsezip" onclick="" onkeypress="">Générer un fichier zip</a></div>
+        
+        </li>
+        <li class="level4"><div class="li"> <a href="/articles/manuel/responsexul" class="wikilink1" title="manuel:responsexul" onclick="" onkeypress="">Générer une interface utilisateur en XUL</a></div>
+        </li>
+        <li class="level4"><div class="li"> <a href="/articles/manuel/responserdf" class="wikilink1" title="manuel:responserdf" onclick="" onkeypress="">Générer du RDF</a></div>
+        </li>
+        </ul>
+        </li>
+        <li class="level2"><div class="li"> Services web</div>
+        <ul>
+        <li class="level4"><div class="li"> <a href="/articles/manuel/responseajax" class="wikilink1" title="manuel:responseajax" onclick="" onkeypress="">type ajax</a></div>
+        
+        </li>
+        <li class="level4"><div class="li"> <a href="/articles/manuel/responsejson" class="wikilink1" title="manuel:responsejson" onclick="" onkeypress="">Json</a></div>
+        </li>
+        <li class="level4"><div class="li"> <a href="/articles/manuel/responsejsonrpc" class="wikilink1" title="manuel:responsejsonrpc" onclick="" onkeypress="">JsonRpc</a></div>
+        </li>
+        <li class="level4"><div class="li"> <a href="/articles/manuel/responsexmlrpc" class="wikilink1" title="manuel:responsexmlrpc" onclick="" onkeypress="">XmlRpc</a></div>
+        </li>
+        </ul>
+        </li>
+        <li class="level2"><div class="li"> <a href="/articles/manuel/restfull" class="wikilink1" title="manuel:restfull" onclick="" onkeypress="">Faire un contrôleur pour utiliser la technique REST</a></div>
+        
+        </li>
+        <li class="level2"><div class="li"> <a href="/articles/manuel/creer_response" class="wikilink1" title="manuel:creer_response" onclick="" onkeypress="">Générer un contenu dans un format personnalisé</a></div>
+        </li>
+        <li class="level2"><div class="li"> <a href="/articles/manuel/traitements_communs" class="wikilink1" title="manuel:traitements_communs" onclick="" onkeypress="">définir des traitements communs à plusieurs actions</a> (au niveau affichage notamment)</div>
+        </li>
+        </ol>
+        </li>
+        <li class="level1"><div class="li"> <a href="/articles/manuel/zones" class="wikilink1" title="manuel:zones" onclick="" onkeypress="">Les zones</a></div>
+        </li>
+        
+        <li class="level1"><div class="li"> <a href="/articles/manuel/templates" class="wikilink1" title="manuel:templates" onclick="" onkeypress="">Le moteur de templates</a></div>
+        </li>
+        <li class="level1"><div class="li"> <a href="/articles/manuel/daos" class="wikilink1" title="manuel:daos" onclick="" onkeypress="">jDao : mapping objet relationnel</a></div>
+        <ol>
+        <li class="level3"><div class="li"> <a href="/articles/manuel/daos/fichier_de_base" class="wikilink1" title="manuel:daos:fichier_de_base" onclick="" onkeypress="">Fichier DAO de base</a></div>
+        </li>
+        <li class="level3"><div class="li"> <a href="/articles/manuel/daos/utilisation" class="wikilink1" title="manuel:daos:utilisation" onclick="" onkeypress="">Instanciation et utilisation d'une factory et d'un record DAO</a></div>
+        </li>
+        <li class="level3"><div class="li"> <a href="/articles/manuel/daos/methodes_xml" class="wikilink1" title="manuel:daos:methodes_xml" onclick="" onkeypress="">Ajouter des méthodes en XML</a></div>
+        
+        </li>
+        <li class="level3"><div class="li"> <a href="/articles/manuel/daos/methodes_php" class="wikilink1" title="manuel:daos:methodes_php" onclick="" onkeypress="">Développer des méthodes en php</a></div>
+        </li>
+        </ol>
+        </li>
+        <li class="level1"><div class="li"> <a href="/articles/manuel/form" class="wikilink1" title="manuel:form" onclick="" onkeypress="">Gérer les formulaires : jForm</a></div>
+        </li>
+        <li class="level1"><div class="li"> <a href="/articles/manuel/bd" class="wikilink1" title="manuel:bd" onclick="" onkeypress="">Accéder à une base de données : jDb</a></div>
+        </li>
+        <li class="level1"><div class="li"> <a href="/articles/manuel/locales" class="wikilink1" title="manuel:locales" onclick="" onkeypress="">Localisation</a></div>
+        
+        </li>
+        <li class="level1"><div class="li"> <a href="/articles/manuel/classes-metiers" class="wikilink1" title="manuel:classes-metiers" onclick="" onkeypress="">Créer ses classes métiers</a></div>
+        </li>
+        <li class="level1"><div class="li"> <a href="/articles/manuel/urls" class="wikilink1" title="manuel:urls" onclick="" onkeypress="">Utilisation des urls automatiques</a></div>
+        </li>
+        </ol>
+        
+        </div>
+        <div class="secedit"><form class="button" method="post" action="/articles/documentation" onsubmit=""><input type="hidden" name="do" value="edit" /><input type="hidden" name="lines" value="930-3259" /><input type="submit" value="Éditer" class="button" /></form></div>
+        <a name="developpement-avance"></a><h2>Développement avancé</h2>
+        <div class="level2">
+        <ol>
+        
+        <li class="level1"><div class="li"> <a href="/articles/manuel/authentification" class="wikilink1" title="manuel:authentification" onclick="" onkeypress="">jAuth : système d'authentification</a></div>
+        </li>
+        <li class="level1"><div class="li"> <a href="/articles/manuel/droits" class="wikilink1" title="manuel:droits" onclick="" onkeypress="">jAcl : système de droits</a></div>
+        </li>
+        <li class="level1"><div class="li"> <a href="/articles/manuel/events" class="wikilink1" title="manuel:events" onclick="" onkeypress="">jEvents : communication inter-module</a></div>
+        </li>
+        <li class="level1"><div class="li"> <a href="/articles/manuel/plugins" class="wikilink1" title="manuel:plugins" onclick="" onkeypress="">Développer des plugins</a></div>
+        </li>
+        </ol>
+        
+        <ol>
+        <li class="level1"><div class="li"> <a href="/articles/manuel/tests_unitaires" class="wikilink1" title="manuel:tests_unitaires" onclick="" onkeypress="">Développer des tests unitaires</a></div>
+        </li>
+        <li class="level1"><div class="li"> <a href="/articles/manuel/errormanager" class="wikilink1" title="manuel:errormanager" onclick="" onkeypress="">Configurer le gestionnaire d'erreur</a></div>
+        </li>
+        <li class="level1"><div class="li"> <a href="/articles/manuel/deboggage" class="wikilink2" title="manuel:deboggage" onclick="" onkeypress="">les aides pour debogguer</a> (jLog..)</div>
+        </li>
+        <li class="level1"><div class="li"> <a href="/articles/manuel/configuration" class="wikilink1" title="manuel:configuration" onclick="" onkeypress="">La configuration en détails</a></div>
+        
+        </li>
+        </ol>
+        
+        </div>
+        <div class="secedit"><form class="button" method="post" action="/articles/documentation" onsubmit=""><input type="hidden" name="do" value="edit" /><input type="hidden" name="lines" value="3260-3771" /><input type="submit" value="Éditer" class="button" /></form></div>
+        <a name="utiliser-les-classe-utilitaires"></a><h2>Utiliser les classe utilitaires</h2>
+        <div class="level2">
+        <ol>
+        <li class="level1"><div class="li"> <a href="/articles/manuel/filtre" class="wikilink2" title="manuel:filtre" onclick="" onkeypress="">jFilter : vérification et filtrage de données</a></div>
+        </li>
+        <li class="level1"><div class="li"> <a href="/articles/manuel/datetime" class="wikilink1" title="manuel:datetime" onclick="" onkeypress="">jDateTime : manipulation de dates et heures</a></div>
+        </li>
+        
+        <li class="level1"><div class="li"> <a href="/articles/manuel/mail" class="wikilink2" title="manuel:mail" onclick="" onkeypress="">jMailer : envoi de mails</a></div>
+        </li>
+        <li class="level1"><div class="li"> <a href="/articles/manuel/wiki" class="wikilink2" title="manuel:wiki" onclick="" onkeypress="">jWiki : transformation de texte wiki</a></div>
+        </li>
+        <li class="level1"><div class="li"> <a href="/articles/manuel/parametres" class="wikilink1" title="manuel:parametres" onclick="" onkeypress="">jParams : paramètres dynamiques</a></div>
+        </li>
+        </ol>
+        
+        </div>
+        <div class="secedit"><form class="button" method="post" action="/articles/documentation" onsubmit=""><input type="hidden" name="do" value="edit" /><input type="hidden" name="lines" value="3772-4122" /><input type="submit" value="Éditer" class="button" /></form></div>
+        <a name="documentation-de-reference-api"></a><h2>Documentation de référence (API)</h2>
+        
+        <div class="level2">
+        
+        <p>
+        Voir <a href="http://jelix.org/reference/" class="urlextern" title="http://jelix.org/reference/" onclick="" onkeypress="" rel="nofollow">http://jelix.org/reference/</a> 
+        </p>
+        <ul>
+        <li class="level1"><div class="li"> <a href="/articles/references/erreurs" class="wikilink2" title="references:erreurs" onclick="" onkeypress="">La liste détaillées des erreurs</a> et leur signification</div>
+        </li>
+        <li class="level1"><div class="li"> <a href="/articles/references/tplplugins" class="wikilink1" title="references:tplplugins" onclick="" onkeypress="">Plugins de jTpl</a></div>
+        
+        </li>
+        </ul>
+        </div>
+
+        <div class="secedit"><form class="button" method="post" action="/articles/documentation" onsubmit=""><input type="hidden" name="do" value="edit" />
+        <input type="hidden" name="lines" value="4123-" />
+        <input type="submit" value="Éditer" class="button" /></form>
+        </div>
+
+    </div>
+
+    <div id="mainfooter">
+    
+        <div id="info">
+            <div class="wfooterinfo"> documentation.txt &middot; Dernière modification: 2007/06/30 09:16 par laurent </div>
+        
+            <div class="wfooterbuttons"> <form class="button" method="post" action="/articles/documentation" onsubmit=""><input type="hidden" name="do" value="edit" /><input type="hidden" name="rev" value="" /><input type="submit" value="Éditer cette page" class="button" title="ALT+E" accesskey="e" /></form> <form class="button" method="get" action="/articles/documentation" onsubmit=""><input type="hidden" name="do" value="revisions" /><input type="submit" value="Anciennes révisions" class="button" title="ALT+O" accesskey="o" /></form> </div>
+        </div>
+        
+        <div id="authinfo">
+            <div class="wfooterinfo"> Vous êtes : Laurent </div>
+            <div class="wfooterbuttons">
+                <form class="button" method="get" action="/articles/documentation" onsubmit=""><input type="hidden" name="do" value="admin" /><input type="submit" value="Admin" class="button" /></form>         <form class="button" method="get" action="/articles/documentation" onsubmit=""><input type="hidden" name="do" value="logout" /><input type="submit" value="Déconnexion" class="button" /></form>               </div>
+        
+        </div>
+    </div>
+
+</div>
+
+<div id="footer">
+  <a href="/feed.php" title="Recent changes RSS feed"><img src="/lib/tpl/default/images/button-rss.png" width="80" height="15" alt="Recent changes RSS feed" /></a>
+
+  <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/" rel="license" title="Creative Commons License"><img src="/lib/tpl/default/images/button-cc.gif" width="80" height="15" alt="Creative Commons License" /></a>
+</div>
+
+
+</body>
+</html>

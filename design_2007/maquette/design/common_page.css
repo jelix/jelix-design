@@ -1,0 +1,89 @@
+/*
+ * Design by Sylvain Lelievre
+ * CSS file by Laurent Jouanneau for jelix.org
+ * Copyright (c) 2006-2007 by Laurent Jouanneau
+ *
+ * You cannot use this stylesheet on your own site without the permission of the author
+ * All right reserved
+ */
+
+
+#header {height:53px;}
+
+
+#introduction { height:53px; }
+#introduction h1 { float:left; font-size:1.3em; margin:5px 0;}
+#introduction form { float:right; margin:10px 0; }
+#introduction input { border:1px solid #002830; }
+#introduction input.button {
+   margin-left:1em;color:white;
+   border:1px solid white; background-color:#002830;
+   font-weight:bold;
+}
+
+#telechargement { height:38px; padding-top:5px}
+
+#chemin {
+   clear:both;  margin:0; padding:5px 5px;
+   border-left:1px solid #d8e1e4;
+   border-right:1px solid #d8e1e4;
+   color : #002830;
+   background-color:#eff4f6;
+}
+#chemin a { color:#0594c8; text-decoration:none; }
+#chemin a:hover { text-decoration:underline;}
+
+
+#main {
+ border-left:1px solid #d8e1e4;
+ border-right:1px solid #d8e1e4;
+ max-width:728px;
+ padding-top:3em;
+}
+
+#mainfooter {
+   clear:both;
+   margin:0 0 0 190px;
+   padding:3px 15px;
+   max-width:728px;
+   min-height:2em;
+   color : #002830;
+   background-color:#d8e1e4;
+   border-left:1px solid #d8e1e4;
+   border-right:1px solid #d8e1e4;
+   border-bottom:1px solid #d8e1e4;
+   -moz-border-radius:0px 0px 15px 15px;
+}
+#mainfooter .wfooterbuttons { text-align:right;}
+#mainfooter form { display:inline; margin:0;}
+#mainfooter .wfooterinfo { font-size:0.8em; float:left; }
+#authinfo { clear:both; }
+
+#footer a { color:#3c90af; text-decoration:underline; }
+#footer a:visited {  color : #002830;}
+#footer a:hover { color: #0f82af; background-color: #d7e7eb; }
+
+/* ---------------------------- Diff rendering --------------------------*/
+
+table.diff { background:white; }
+td.diff-blockheader {font-weight:bold}
+td.diff-header {
+  border-bottom: 1px solid #8cacbb;
+  font-size:120%;
+}
+td.diff-addedline {
+    background:#ddffdd;
+    font-family: monospace;
+    font-size: 100%;
+}
+td.diff-deletedline {
+    background:#ffffbb;
+    font-family: monospace;
+    font-size: 100%;
+}
+td.diff-context {
+    background:#f7f9fa;
+    font-family: monospace;
+    font-size: 100%;
+}
+span.diffchange { color: red; }

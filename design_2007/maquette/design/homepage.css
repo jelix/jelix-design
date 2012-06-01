@@ -1,0 +1,79 @@
+@import url(common.css);
+/*
+ * Design by Sylvain Lelievre
+ * CSS file by Laurent Jouanneau for jelix.org
+ * Copyright (c) 2006-2007 by Laurent Jouanneau
+ *
+ * You cannot use this stylesheet on your own site without the permission of the author
+ * All right reserved
+ */
+
+
+
+#header {height:188px;}
+#introduction { height:188px; }
+#telechargement { height:173px; }
+
+
+
+#news {
+   margin:1em 0; padding:5px 20px 0 20px;
+   border:1px solid #d8e1e4;
+   color : #002830;
+   background-color:#eff4f6;
+}
+
+#news h1 { font-size:1.3em;
+border-bottom:2px solid #ed5a02;
+}
+#news h2 { font-size:1.1em; text-decoration: underline; border:0;}
+
+#news div.news-content {
+    /*-moz-column-count:2;
+    -moz-column-gap:1em;
+    -moz-column-width:18em;
+    -moz-column-rule: medium solid;*/
+}
+
+ .news-infos {
+   /*border:1px solid #d8e1e4;*/
+   color : #002830;
+   background-color:#eff4f6;
+   text-align:right;
+   font-style:italic;
+   margin-top:-1.5em;
+}
+.news-link {
+  padding: 0.5em;
+  background-color:#d8e1e4;
+}
+
+#sidemenu {top:0; }
+#sidemenu h1 { text-align:center; margin:20px 0; padding:0;
+font-size:1.2em; text-transform:uppercase;
+letter-spacing:0.2em; font-weight:bold;
+
+}
+#sidemenu h2 { color: #3c90af; border-bottom:2px solid #002830; margin:2em 0 0.5em 0; }
+#sidemenu h3 { margin-bottom:0em; }
+#sidemenu p { margin:0;}
+#sidemenu p.lang { text-align:center;}
+
+
+#sidemenu .sponsor { margin:5em 0 1em 0; padding:0 0 5px 0; color: black;
+   background-color:#EFF4F6;
+text-align:center; -moz-border-radius:8px;
+}
+
+#sidemenu .sponsor h3 { background-color: #002830; color:white; -moz-border-radius:8px 8px 0 0;}
+
+
+#footer {
+   background-color:#d8e1e4;
+   border-left:1px solid #d8e1e4;
+   border-right:1px solid #d8e1e4;
+   border-bottom:1px solid #d8e1e4;
+   -moz-border-radius:15px;
+   }
+
+#footer a { color : #002830; }

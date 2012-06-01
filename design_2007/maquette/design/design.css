@@ -1,0 +1,379 @@
+/*
+ * Design and CSS file by Laurent Jouanneau for jelix.org
+ * Copyright (c) 2006-2007 by Laurent Jouanneau
+ *
+ * You cannot use this stylesheet on your own site without the permission of the author
+ * All right reserved
+ */
+
+/*@import url(../lib/styles/style.css);*/
+body {  
+    font-family: Verdana, Arial, Sans; 
+    font-size:0.8em;
+    margin:0;
+    background-color:#eff4f6;
+    padding-left:4em;
+    padding-right:4em;
+}
+
+a img { border:0;}
+
+pre {
+  padding-left:1em;
+  border-left:4px solid /*#c66464;*/#efe03b;
+  background-image:url(fond_horizontale.png);
+  background-repeat:repeat-y;
+  color:black;
+  overflow:auto;
+}
+
+
+#header {  margin:0; padding:1em 5px; color : #002830; }
+#header h1 { margin:0; }
+#header a { color:#0594c8; text-decoration:none; }
+#header img { vertical-align:bottom; }
+
+#accessibility {font-size:0.8em;color:#c0e0eb;}
+#accessibility a { color:inherit; }
+#accessibility:hover{ color:#0594c8; }
+#accessibility a:hover{ text-decoration:underline;}
+
+
+#search { position:absolute; top : 5px; right:6.3em; text-align:right;}
+#search input { border:1px solid #002830; }
+#search input.button {
+   margin-left:1em;color:white;
+   border:1px solid white; background-color:#002830;
+   font-weight:bold;
+}
+#search form { margin-top:5px;}
+
+#topmenubar_right , #topmenubar {
+    background-repeat:no-repeat;
+    color:white;
+    vertical-align:bottom;
+    margin:0;
+    padding:10px 5px 5px 70px;
+
+}
+#topmenubar_right { 
+    float:right;
+    background-color:#002830;
+    background-image:url(chevron_separe.png);
+    background-position:center left;
+    -moz-border-radius:0px 15px 0px 0px;
+    
+}
+#topmenubar { 
+    background-color:#3c90af;
+    background-image:url(chevrons.png);
+    background-position:center left;
+    padding-left:75px;
+    padding-right:0px;
+    margin-right:15px;
+    -moz-border-radius:15px 0px  0px 0px ;
+}
+
+#topmenubar_right li, #topmenubar li { 
+    display:inline;
+    padding:5px 5px 10px 5px;
+    font-size:1.3em;
+    vertical-align:top;
+    list-style-type:none;
+    list-style-position:outside;
+}
+#topmenubar_right li a, #topmenubar li a, #submenubar li a {
+ color:inherit; 
+ text-decoration:none;
+}
+
+#topmenubar li a:hover{ color:white; border-bottom: solid 3px #FFA08F /*#A9FA55*/;}
+#topmenubar li.selected {-moz-border-radius:8px; background-color:#2b4c53; }
+#topmenubar_right li a:hover{ text-decoration:underline; }
+
+#submenubar {
+    background-color:#2b4c53;
+    color:white;
+    padding:5px  5px 5px 70px;
+    margin: 0 0 0 0;
+    vertical-align:bottom;
+    -moz-border-radius:0px 0 8px 8px;
+}
+#submenubar li { 
+    display:inline;
+    padding:5px;
+    font-size:1em;
+    list-style-type:none;
+    list-style-position:outside;
+}
+#submenubar li a:hover{  text-decoration:underline; }
+
+#main { background-color:white; padding:2em 1em 1em 1em; color : #002830; }
+
+#main a { color:#3f6f7a; text-decoration:underline; }
+#main a:visited {  color : #002830;}
+#main a:hover { color: #0f82af; background-color: #d7e7eb; }
+#main a.wikilink2 { color:#ed5a02;}
+#main input.button, #mainfooter input.button{
+   background-color:#4397b6;
+   border-left: 1px solid #99cbde;
+   border-right: 1px solid  #225365;
+   border-top: 1px solid #99cbde ;
+   border-bottom: 1px solid  #225365;
+   -moz-border-radius:3px;
+   color:white;
+   cursor: pointer;
+}
+
+#main input[type=button][disabled], input[type=submit][disabled], input[type=reset][disabled] {
+ background: #94a8af;
+ color: #ddd;
+}
+
+#main ul { list-style-image:url(puce_page.png); }
+#main li { padding-bottom:0.3em;}
+#main li.open { list-style-image: url(../lib/tpl/default/images/open.gif); }
+#main li.closed { list-style-image: url(../lib/tpl/default/images/closed.gif); }
+
+#main h1 { color: #c03033; margin:0; }
+#main h2 { color: #002830; /*border-bottom:2px solid #002830;*/ margin:1em 0 0.5em 0; } /* */
+#main h3 { color: #002830; /*border-bottom:1px solid #002830;*/ margin:1em 0 0.5em 0; }
+#main h4 { color: #002830; }
+
+
+
+#main a.interwiki{
+   background: transparent url(../lib/images/interwiki.png) 0px 1px no-repeat;
+   padding-left: 16px;
+}
+
+#main ul.navlinks {
+   text-align:right; font-size:0.9em; margin:0.5em 0;  height:2em;
+   background-image:url(fond_navlinks.png);
+   background-repeat: repeat-x;
+   background-color:#51accd;
+}
+#main ul.navlinks li { display:inline; float:right;  padding:0 1em 0 0; margin:0;}
+#main ul.navlinks a { color:white; }
+#main ul.navlinks a:visited { color:white;}
+#main ul.navlinks a:hover { background-color: inherit;}
+
+
+#main .news-infos {
+   /*border:1px solid #d8e1e4;*/
+   color : #002830;
+   background-color:#eff4f6;
+   text-align:right;
+   font-style:italic;
+   margin-top:-0.5em;
+}
+
+
+
+#content {  margin-left: 200px;}
+
+/* styles for the wiki */
+
+div.level1, div.level2, div.level3, div.level4, div.level5, div.level6 { padding-left:2em; }
+
+div.secedit { text-align:right; }
+div.secedit form { margin: 0 0 1em 0; }
+
+
+#content-header {
+   margin:0.5em 0.5em 1.5em 0.5em; padding:5px;
+   /*border-left:1px solid #d8e1e4;
+   border-right:1px solid #d8e1e4;*/
+   color : #002830;
+   background-color:#d8e1e4;
+   -moz-border-radius:8px;
+}
+#content-header a { color:#0594c8; text-decoration:none; }
+#content-header a:hover { text-decoration:underline;}
+
+
+#content-menu { float:left;
+   width:180px;
+   padding-right:5px;
+   border-right:2px solid #d8e1e4;
+   margin:1em 5px 5px 0;
+   font-size:0.8em;
+}
+#content-menu a {color:#0594c8; text-decoration:none;}
+#content-menu a:hover { text-decoration: underline; }
+#content-menu ul { margin:1em 0 0 1em; padding:0 0 0 1em; color: #3c90af;
+   list-style-image:url(puce_menu_actif6.png);
+   /*background-image:url(fond_sidemenu.png); */
+   background-repeat:repeat-y;}
+#content-menu ul ul { margin-top:0; background-image:none;}
+#content-menu ul li { margin:0; padding:0 0 0 0em; }
+#content-menu li.actif { list-style-image:url(puce_menu_actif6.png);}
+#content-menu li.actif a {/*color: #002830; font-weight:bold;*/}
+#content-menu li.actif a:hover {}
+#content-menu li.actif ul { font-size:0.9em; list-style-image:url(puce_menu_actif6.png); }
+#content-menu .userinfo { margin:2em 0; }
+
+
+
+#mainfooter {
+   clear:both;
+   margin:1em 0 0 200px;
+   padding:3px 15px;
+   min-height:2em;
+   color : #002830;
+   background-color:#d8e1e4;
+   -moz-border-radius:8px;
+}
+#mainfooter .wfooterbuttons { text-align:right;}
+#mainfooter form { display:inline; margin:0;}
+#mainfooter .wfooterinfo { font-size:0.8em; float:left; }
+#authinfo { clear:both; }
+
+
+#footer {
+   clear:both;
+   margin:1em 0 0 190px;
+   padding:10px;
+   max-width:730px;
+   color : #002830;
+   text-align:center;
+   font-size:0.8em;
+}
+#footer a { color:#3c90af; text-decoration:underline; }
+#footer a:visited {  color : #002830;}
+#footer a:hover { color: #0f82af; background-color: #d7e7eb; }
+
+
+/* ---------------------------- Diff rendering --------------------------*/
+
+table.diff { background:white; }
+td.diff-blockheader {font-weight:bold}
+td.diff-header {
+  border-bottom: 1px solid #8cacbb;
+  font-size:120%;
+}
+td.diff-addedline {
+    background:#ddffdd;
+    font-family: monospace;
+    font-size: 100%;
+}
+td.diff-deletedline {
+    background:#ffffbb;
+    font-family: monospace;
+    font-size: 100%;
+}
+td.diff-context {
+    background:#f7f9fa;
+    font-family: monospace;
+    font-size: 100%;
+}
+span.diffchange { color: red; }
+
+/* ==================== homepage =============== */
+#homesidebar {
+   float:right;
+   width:22em;
+}
+
+#homesidebar .sponsor { margin:1em 0 1em 0; padding:0 0 5px 0; color: black;
+   background-color:#EFF4F6;
+text-align:center; -moz-border-radius:8px;
+}
+
+#homesidebar .sponsor h3 { background-color: #002830; color:white; -moz-border-radius:8px 8px 0 0;}
+
+#news {
+   margin:1em 0; padding:5px 20px 0 20px;
+   border:1px solid #d8e1e4;
+   color : #002830;
+   background-color:#eff4f6;
+   -moz-border-radius:15px;
+
+}
+
+#news h1 { font-size:1.3em;}
+#news h2 { font-size:1.1em;}
+
+#news div.news-content {
+    /*-moz-column-count:2;
+    -moz-column-gap:1em;
+    -moz-column-width:18em;
+    -moz-column-rule: medium solid;*/
+}
+
+.news-infos {
+   /*border:1px solid #d8e1e4;*/
+   color : #002830;
+   background-color:#eff4f6;
+   text-align:right;
+   font-style:italic;
+   margin-top:-1.5em;
+}
+.news-link {
+  padding: 0.5em;
+  background-color:#d8e1e4;
+}
+
+.infobox {
+    text-align:center;
+    float:left;
+    background-color: #002830; 
+    color:#fff;
+    -moz-border-radius:15px;
+    width:12em;
+    margin:1em 0.5em;
+    padding:0.5em;
+    min-height:10em;
+}
+
+.infobox h3 { color:#fff !important; }
+
+.infobox a { font-size:1.3em; color:white !important; opacity:0.8; text-decoration:none; }
+.infobox a:hover { color : white !important; opacity:1; background-color:transparent !important; text-decoration:none !important; }
+.infobox a:visited {  color : white !important;}
+
+
+/* ==================== Forum =============== */
+
+table.forum { border:1px solid grey; border-collapse:collapse; margin:1em auto; }
+table.forum th { background-color: #002830; color:#fff; }
+table.forum td { border:1px solid grey; vertical-align:top;}
+table.forum td.lastpost { font-size:0.8em;}
+
+table.forum td h2 { color:#AF283A; font-size:1.1em !important;
+   border-bottom:0 none transparent !important;}
+table.forum td h2 a{ color:#AF283A !important; }
+table.forum td h2 a:hover{ color:#fff !important; }
+
+table.forumform td { vertical-align:top;}
+table.forumform th { text-align:right; vertical-align:top;}
+
+.forumMessage {margin-bottom:1em;}
+.forumMessage h2 {  margin-bottom:0;}
+.forumMessage h3 { border-bottom:1px solid #000; margin-bottom:0;}
+
+
+   .forumtext { background-color: #f9f9f7; margin:0.5em 0 0 0; padding:0.3em;
+      border:2px solid #edede6;}
+   .forumtext blockquote { margin-left:1.5em; padding-left:0.5em;border-left:2px solid #195a80;}
+   .forumsignature { font-size:0.9em;}
+   .forumeditmessage { text-align:right; font-style:italic; font-size:0.8em; margin-bottom:0;}
+
+
+   .forumMessageInfo {}
+   .forumMessageInfo p {margin:0; font-size:0.8em;}
+   .forumMessageOptions{text-align:right; background-color:#edede6; font-size:0.8em;}
+   .forumMessageOptions a { padding-right:1.5em;}
+   .forumModeration {text-align:right; background-color:#edede6; font-size:0.8em;}
+   .forumModeration a { padding-right:1.5em;}
+.forumAlert { border:1px solid grey; }
+.forumError { border:1px solid red; }
+
+
+.msgoptions { font-size:0.8em; text-align:right;}
+.msgnew, .msgpages { font-size:0.8em;}
+.msgnew {color:#ff0000;}
+.msgannouncement { color:#fff; background-color:#000;}
+#forummenudroit { float:right; width:12em; padding:0 0.5em; }
+#forumcontenu { margin-right:13em;}
+

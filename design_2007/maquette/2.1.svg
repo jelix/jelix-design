@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.45"
+   sodipodi:docbase="/home/laurent/projets/jelix/site/design/2007"
+   sodipodi:docname="2.1.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   sodipodi:modified="true">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="387.56145"
+     inkscape:cy="694.84826"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     showgrid="false"
+     inkscape:window-width="949"
+     inkscape:window-height="961"
+     inkscape:window-x="294"
+     inkscape:window-y="0">
+    <sodipodi:guide
+       orientation="vertical"
+       position="739.43166"
+       id="guide3198" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="opacity:1;fill:#2b4c53;fill-opacity:1;stroke:#e1dbc7;stroke-width:0;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect3194"
+       width="736.40118"
+       height="43.436554"
+       x="2.0203297"
+       y="79.585297" />
+    <rect
+       style="opacity:1;fill:#002830;fill-opacity:1;stroke:#e1dbc7;stroke-width:0;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect3196"
+       width="125.25889"
+       height="41.416252"
+       x="360.62448"
+       y="635.16919" />
+    <rect
+       style="opacity:1;fill:#eff4f6;fill-opacity:1;stroke:#e1dbc7;stroke-width:0;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect3200"
+       width="231.32489"
+       height="69.700531"
+       x="1.0101495"
+       y="10.894907" />
+    <image
+       y="17.260416"
+       x="15.055852"
+       id="image2218"
+       height="60"
+       width="180"
+       sodipodi:absref="/home/laurent/projets/jelix/site/svn/trunk/design/logo_jelix_moyen.png"
+       xlink:href="/home/laurent/projets/jelix/site/svn/trunk/design/logo_jelix_moyen.png" />
+    <rect
+       style="opacity:1;fill:#4096b4;fill-opacity:1;stroke:#4096b4;stroke-width:39.71036148;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect2221"
+       width="497.98312"
+       height="23.211456"
+       x="220.72935"
+       y="30.603914" />
+    <rect
+       style="opacity:1;fill:#4096b4;fill-opacity:1;stroke:#4096b4;stroke-width:0;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect3202"
+       width="537.40112"
+       height="43.436558"
+       x="201.02037"
+       y="37.158875" />
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Sans"
+       x="211.1219"
+       y="66.4533"
+       id="text3222"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3224"
+         x="211.1219"
+         y="66.4533"
+         style="font-size:28px">Framework For PHP5</tspan></text>
+    <rect
+       style="opacity:1;fill:#002830;fill-opacity:1;stroke:#e1dbc7;stroke-width:0;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect3240"
+       width="133.3401"
+       height="35.355335"
+       x="214.15234"
+       y="87.16143" />
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Sans"
+       x="13.852875"
+       y="106.35432"
+       id="text3230"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3232"
+         x="13.852875"
+         y="106.35432"
+         style="font-size:16px">Home  About  Download  Documentation  Community  Contribute  Forge</tspan></text>
+    <rect
+       style="opacity:1;fill:#eff4f6;fill-opacity:1;stroke:#e1dbc7;stroke-width:0;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect3242"
+       width="735.39099"
+       height="37.375648"
+       x="2.5254059"
+       y="123.52692" />
+    <path
+       style="fill:#ececec;fill-opacity:1;fill-rule:evenodd;stroke:#a7a7a7;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 162.63456,184.64114 L 162.63456,807.90526"
+       id="path3248" />
+  </g>
+</svg>

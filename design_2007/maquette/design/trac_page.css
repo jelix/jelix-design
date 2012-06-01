@@ -1,0 +1,153 @@
+@import url(common.css);
+@import url(common_page.css);
+/*
+ * Design by Sylvain Lelievre
+ * CSS file by Laurent Jouanneau for jelix.org
+ * Copyright (c) 2006-2007 by Laurent Jouanneau
+ *
+ * You cannot use this stylesheet on your own site without the permission of the author
+ * All right reserved
+ */
+#sidemenu {
+   top:140px;
+}
+
+#sidemenu p { text-align:center;}
+
+#chemin ul { text-align:right; font-size:0.9em; margin:0;  height:2em; }
+#chemin ul li { display:inline; float:right;  padding:0 1em 0 0; margin:0;}
+
+a.missing:link, a.missing:visited { color: #d9443a !important;}
+a.missing:hover { background-color: #d3bec9; color: #000; }
+a.closed:link, a.closed:visited { text-decoration: line-through }
+
+#mainfooter form div { display:inline; margin:0;}
+
+dl.wiki dt { font-weight: bold }
+dl.compact dt { float: left; padding-right: .5em }
+dl.compact dd { margin: 0; padding: 0 }
+pre.literal-block {
+ background: #f7f7f7;
+ border: 1px solid #d7d7d7;
+ margin: 1em 1.75em;
+ padding: .25em;
+ overflow: auto;
+}
+table.wiki {
+ border: 2px solid #ccc;
+ border-collapse: collapse;
+ border-spacing: 0;
+}
+table.wiki td { border: 1px solid #ccc;  padding: .1em .25em; }
+
+.wikitoolbar {
+ border: solid #d7d7d7;
+ border-width: 1px 1px 1px 0;
+ height: 18px;
+ width: 156px;
+}
+.wikitoolbar :link, .wikitoolbar :visited {
+ background: transparent url(trac/edit_toolbar.png) no-repeat;
+ border: 1px solid #fff;
+ border-left-color: #d7d7d7;
+ cursor: default;
+ display: block;
+ float: left;
+ width: 24px;
+ height: 16px;
+}
+.wikitoolbar :link:hover, .wikitoolbar :visited:hover {
+ background-color: transparent;
+ border: 1px solid #fb2;
+}
+.wikitoolbar a#em { background-position: 0 0 }
+.wikitoolbar a#strong { background-position: 0 -16px }
+.wikitoolbar a#heading { background-position: 0 -32px }
+.wikitoolbar a#link { background-position: 0 -48px }
+.wikitoolbar a#code { background-position: 0 -64px }
+.wikitoolbar a#hr { background-position: 0 -80px }
+
+
+/* Styles for the form for adding attachments. */
+#attachment .field { margin-top: 1.3em }
+#attachment label { padding-left: .2em }
+#attachment fieldset { margin-top: 2em }
+#attachment fieldset .field { float: left; margin: 0 1em .5em 0 }
+#attachment .options { float: left; padding: 0 0 1em 1em }
+#attachment br { clear: left }
+.attachment #preview { margin-top: 1em }
+
+/* Styles for tabular listings such as those used for displaying directory
+   contents and report results. */
+table.listing {
+ clear: both;
+ border-bottom: 1px solid #d7d7d7;
+ border-collapse: collapse;
+ border-spacing: 0;
+ margin-top: 1em;
+ width: 100%;
+}
+table.listing th { text-align: left; padding: 0 1em .1em 0; font-size: 12px }
+table.listing thead { background: #f7f7f0 }
+table.listing thead th {
+ border: 1px solid #d7d7d7;
+ border-bottom-color: #999;
+ font-size: 11px;
+ font-weight: bold;
+ padding: 2px .5em;
+ vertical-align: bottom;
+}
+table.listing thead th :link:hover, table.listing thead th :visited:hover {
+ background-color: transparent;
+}
+table.listing thead th a { border: none; padding-right: 12px }
+table.listing th.asc a, table.listing th.desc a { font-weight: bold }
+table.listing th.asc a, table.listing th.desc a {
+ background-position: 100% 50%;
+ background-repeat: no-repeat;
+}
+table.listing th.asc a { background-image: url(asc.png) }
+table.listing th.desc a { background-image: url(desc.png) }
+table.listing tbody td, table.listing tbody th {
+ border: 1px dotted #ddd;
+ padding: .33em .5em;
+ vertical-align: top;
+}
+table.listing tbody td a:hover, table.listing tbody th a:hover {
+ background-color: transparent;
+}
+table.listing tbody tr { border-top: 1px solid #ddd }
+table.listing tbody tr.even { background-color: #fcfcfc }
+table.listing tbody tr.odd { background-color: #f7f7f7 }
+table.listing tbody tr.changed td { font-style:italic;   }
+table.listing tbody tr.removed td { text-decoration:line-through;   }
+table.listing tbody tr:hover { background: #eed !important }
+
+
+/* Styles for the error page (and rst errors) */
+#content.error .message, div.system-message {
+ background: #fdc;
+ border: 2px solid #d00;
+ color: #500;
+ padding: .5em;
+ margin: 1em 0;
+}
+#content.error pre, div.system-message pre { margin-left: 1em; overflow: auto }
+div.system-message p { margin: 0; }
+div.system-message p.system-message-title { font-weight: bold; }
+
+div#help { margin-top:1em; }
+
+/* Styles for search word highlighting */
+@media screen {
+ .searchword0 { background: #ff9 }
+ .searchword1 { background: #cfc }
+ .searchword2 { background: #cff }
+ .searchword3 { background: #ccf }
+ .searchword4 { background: #fcf }
+}
+
+@media print {
+ #header, #altlinks, #footer { display: none }
+ .nav, form, .buttons form { display: none }
+}

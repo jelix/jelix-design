@@ -1,0 +1,85 @@
+@import url(../lib/styles/style.css);
+@import url(common.css);
+@import url(common_page.css);
+
+/*
+ * Design by Sylvain Lelievre
+ * CSS file by Laurent Jouanneau for jelix.org
+ * Copyright (c) 2006-2007 by Laurent Jouanneau
+ *
+ * You cannot use this stylesheet on your own site without the permission of the author
+ * All right reserved
+ */
+
+
+#main a.interwiki{
+   background: transparent url(../lib/images/interwiki.png) 0px 1px no-repeat;
+   padding-left: 16px;
+}
+
+#main ul.navlinks {
+   text-align:right; font-size:0.9em; margin:0.5em 0;  height:2em;
+   background-image:url(fond_navlinks.png);
+   background-repeat: repeat-x;
+   background-color:#51accd;
+}
+#main ul.navlinks li { display:inline; float:right;  padding:0 1em 0 0; margin:0;}
+#main ul.navlinks a { color:white; }
+#main ul.navlinks a:visited { color:white;}
+#main ul.navlinks a:hover { background-color: inherit;}
+
+
+#main .news-infos {
+   /*border:1px solid #d8e1e4;*/
+   color : #002830;
+   background-color:#eff4f6;
+   text-align:right;
+   font-style:italic;
+   margin-top:-0.5em;
+}
+
+
+/* ==================== Forum =============== */
+
+table.forum { border:1px solid grey; border-collapse:collapse; margin:1em auto; }
+table.forum th { background-color: #002830; color:#fff; }
+table.forum td { border:1px solid grey; vertical-align:top;}
+table.forum td.lastpost { font-size:0.8em;}
+
+table.forum td h2 { color:#AF283A; font-size:1.1em !important;
+   border-bottom:0 none transparent !important;}
+table.forum td h2 a{ color:#AF283A !important; }
+table.forum td h2 a:hover{ color:#fff !important; }
+
+table.forumform td { vertical-align:top;}
+table.forumform th { text-align:right; vertical-align:top;}
+
+.forumMessage {margin-bottom:1em;}
+.forumMessage h2 {  margin-bottom:0;}
+.forumMessage h3 { border-bottom:1px solid #000; margin-bottom:0;}
+
+
+   .forumtext { background-color: #f9f9f7; margin:0.5em 0 0 0; padding:0.3em;
+      border:2px solid #edede6;}
+   .forumtext blockquote { margin-left:1.5em; padding-left:0.5em;border-left:2px solid #195a80;}
+   .forumsignature { font-size:0.9em;}
+   .forumeditmessage { text-align:right; font-style:italic; font-size:0.8em; margin-bottom:0;}
+
+
+   .forumMessageInfo {}
+   .forumMessageInfo p {margin:0; font-size:0.8em;}
+   .forumMessageOptions{text-align:right; background-color:#edede6; font-size:0.8em;}
+   .forumMessageOptions a { padding-right:1.5em;}
+   .forumModeration {text-align:right; background-color:#edede6; font-size:0.8em;}
+   .forumModeration a { padding-right:1.5em;}
+.forumAlert { border:1px solid grey; }
+.forumError { border:1px solid red; }
+
+
+.msgoptions { font-size:0.8em; text-align:right;}
+.msgnew, .msgpages { font-size:0.8em;}
+.msgnew {color:#ff0000;}
+.msgannouncement { color:#fff; background-color:#000;}
+#forummenudroit { float:right; width:12em; padding:0 0.5em; }
+#forumcontenu { margin-right:13em;}
+

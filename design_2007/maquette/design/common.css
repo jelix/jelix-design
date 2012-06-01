@@ -1,0 +1,232 @@
+/*
+ * Design by Sylvain Lelievre
+ * CSS file by Laurent Jouanneau for jelix.org
+ * Copyright (c) 2006-2007 by Laurent Jouanneau
+ *
+ * You cannot use this stylesheet on your own site without the permission of the author
+ * All right reserved
+ */
+
+body {  font-family: Verdana, Arial, Sans; font-size:0.8em;}
+
+a img { border:0;}
+
+pre {
+  padding-left:1em;
+  border-left:4px solid /*#c66464;*/#efe03b;
+  background-image:url(fond_horizontale.png);
+  background-repeat:repeat-y;
+  color:black;
+  overflow:auto;
+}
+
+#sideheader {
+   position:absolute;
+   top:0;
+   left:0;
+   width:185px;
+   padding-left:10px;
+}
+
+#sideheader h1 { text-align:center; margin:20px 0 0 0; padding:0;}
+#sideheader h1 a {text-decoration:none;}
+#sideheader h1 a img {vertical-align:top;}
+#sideheader h1 a:hover { text-decoration:none; }
+#sideheader h2 { font-size:1.2em;text-align:center; margin:0; padding:0;
+text-transform:uppercase;letter-spacing:0.2em; font-weight:bold;
+}
+
+#header { margin:20px 5px 0 190px;  width:760px;
+   background-image:url(fond_header.png);
+   background-repeat:no-repeat;
+   background-color:#1e92af;
+}
+
+#introduction {
+   float:left;
+   width:480px;
+   padding:0px 0 0 10px;
+   font-size:1.0em;
+   font-weight:bold;
+   color:white;
+}
+#introduction img { border:0; vertical-align:middle; }
+#introduction p {font-weight:bold;  }
+#introduction a { color: white;}
+#introduction ul { list-style-image:url(puce_jaune.png); }
+#introduction ul li { padding-bottom:3px; }
+
+#telechargement {
+   padding:15px 10px 0px 95px;
+   width:163px;
+   float:left;
+   font-size:1.0em;
+   color:white;
+   font-weight:bold;
+   text-align:center;
+}
+#telechargement a { font-size:1.3em; color:white; opacity:0.6; text-decoration:underline; }
+#telechargement a:hover { opacity:1; background-color:transparent; text-decoration:underline; }
+#telechargement a:visited {  color : white;}
+
+#telechargement input.edit {
+   background-color:transparent;
+   color:white;
+   border:2px solid #5c858e;
+
+}
+#telechargement input.button {
+   color:white;
+   background-color:#5c858e;
+   border-left: 1px solid #2b4c53;
+   border-right: 1px solid  #002830;
+   border-top: 1px solid #2b4c53 ;
+   border-bottom: 1px solid  #002830;
+   cursor:pointer;
+
+}
+
+
+#main {
+   clear:both;
+   margin:0 0 0 190px;
+   padding:30px 15px 15px 15px;
+   max-width:730px;
+   color : #002830;
+}
+
+#main a { color:#3c90af; text-decoration:underline; }
+#main a:visited {  color : #002830;}
+#main a:hover { color: #0f82af; background-color: #d7e7eb; }
+#main a.wikilink2 { color:#ed5a02;}
+
+#main input.button, #mainfooter input.button{
+   background-color:#4397b6;
+   border-left: 1px solid #99cbde;
+   border-right: 1px solid  #225365;
+   border-top: 1px solid #99cbde ;
+   border-bottom: 1px solid  #225365;
+   -moz-border-radius:3px;
+   color:white;
+   cursor: pointer;
+}
+
+#main input[type=button][disabled], input[type=submit][disabled], input[type=reset][disabled] {
+ background: #94a8af;
+ color: #ddd;
+}
+
+#main h1 { color: #3c90af; border-bottom:4px solid #ed5a02; margin:0; }
+#main h2 { color: #3c90af; border-bottom:2px solid #002830; margin:1em 0 0.5em 0; }
+#main h3 { color: #002830; border-bottom:1px solid #002830; margin:1em 0 0.5em 0; }
+#main h4 { color: #002830; }
+
+
+#main div.colonne { float:left; width:230px; margin-right:10px;  color:#535353; }
+#main div.colonne h1 {
+   margin:0;
+   color: #3c90af;
+   border-bottom:4px solid #ed5a02;
+   font-family: lucida, arial, sans;
+}
+#main div.colonne div{
+   background-image:url(fond_colonne.png);
+   background-repeat: repeat-x;
+   padding-top:0.5em;
+}
+#main div.colonne h2, #main div.colonne h3 { margin:0 0.5em; color: #1fa3d3; border-bottom:0px none; }
+#main div.colonne h2 a, #main div.colonne h3 a { color: #1fa3d3; text-decoration: none; }
+#main div.colonne h2 a:hover, #main div.colonne h3 a:hover { text-decoration: underline; background-color:transparent;}
+#main div.colonne p { margin:0 0.5em 1em 0.5em; }
+
+#main ul { list-style-image:url(puce_page.png); }
+#main li { padding-bottom:0.3em;}
+#main li.open { list-style-image: url(../lib/tpl/default/images/open.gif); }
+#main li.closed { list-style-image: url(../lib/tpl/default/images/closed.gif); }
+
+
+
+
+#sidemenu {
+   position:absolute;
+   top:110px;
+   left:0;
+   width:185px;
+   padding-left:10px;
+}
+#sidemenu a {color:#0594c8; text-decoration:none;}
+#sidemenu a:hover { text-decoration: underline; }
+#sidemenu ul { margin:1em 0 0 1em; padding:0 0 0 1em; color: #3c90af;
+   list-style-image:url(puce_menu_actif.png);
+   background-image:url(fond_sidemenu.png); background-repeat:repeat-y;}
+#sidemenu ul ul { margin-top:0; background-image:none;}
+#sidemenu ul li { margin:0; padding:0 0 0 0em; }
+#sidemenu li.actif { list-style-image:url(puce_menu_inactif.png);}
+#sidemenu li.actif a {color: #002830; font-weight:bold;}
+#sidemenu li.actif a:hover {}
+#sidemenu li.actif ul { font-size:0.9em; list-style-image:url(puce_menu_inactif.png); }
+#sidemenu .userinfo { margin:2em 0; }
+/*#sidemenu p { text-align:center;}*/
+
+
+#footer {
+   clear:both;
+   margin:1em 0 0 190px;
+   padding:10px;
+   max-width:730px;
+   color : #002830;
+   text-align:center;
+   font-size:0.8em;
+}
+
+
+/* styles for the wiki */
+
+div.level1, div.level2, div.level3, div.level4, div.level5, div.level6 { padding-left:2em; }
+
+div.secedit { text-align:right; }
+
+div.toc {
+  margin: 2em 0 2em 2em ;
+  padding:10px;
+  float:right;
+  width: 200px;
+  font-size: 80%;
+  clear:both;
+  color : #002830;
+  background-color:#eff4f6;
+  border : 1px solid;
+  border-top-color: #d4dee3;
+  border-left-color: #d4dee3;
+  border-right-color: #9bb0b9;
+  border-bottom-color: #9bb0b9;
+}
+
+div.tocheader {
+  padding: 3px;
+  background-color: #2b4c53;
+  text-align: left;
+  font-weight:bold;
+  color:white;
+}
+
+div.toctoggle { float:right; margin-top:0.3em; margin-right:3px; }
+div.toctoggle img { width:0.8em; height:0.8em; }
+div.tocinside {
+ padding-top: 0.5em; padding-bottom: 0.7em;
+  border: 1px solid #2b4c53;
+  background-color: #ffffff;
+  text-align: left;
+}
+
+div.toc ul {
+    margin: 0 0 0 1em; padding: 0;
+  list-style-type: none;
+  list-style-image: none;
+  line-height: 1.2em;
+}
+
+div.toc ul li { }
+div.toc ul li.clear { }
+div.toc ul a { text-decoration:none;}
+
