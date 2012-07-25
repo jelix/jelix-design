@@ -1,0 +1,67 @@
+/*
+ * Design and CSS file by Laurent Jouanneau for jelix.org
+ * Copyright (c) 2006-2007 by Laurent Jouanneau
+ *
+ * You cannot use this stylesheet on your own site without the permission of the author
+ * All right reserved
+ */
+
+#accessibility, #search, #topmenubar_right, #topmenubar, #submenubar { display:none;}
+
+#main input.button, #mainfooter input.button{
+   display:none;
+}
+
+#main input[type=button][disabled], input[type=submit][disabled], input[type=reset][disabled] {
+display:none;
+}
+
+#main h1 a.anchor, #main h2 a.anchor, #main h3 a.anchor, #main h4 a.anchor, #main h5 a.anchor {
+  display:none;
+}
+
+#main .contenuinfo {
+
+}
+
+
+
+#main .news-infos {
+}
+
+#content {  padding:5px 5px 5px 15px; margin-left: 0px; border-left:0px none;}
+
+/* styles for the wiki */
+
+div.secedit { display:none;}
+div.toc {
+}
+
+div.tocheader {
+}
+
+div.toctoggle { display:none; }
+
+#content-header, #content-menu, #mainfooter, #fullmainfooter {
+   display:none;
+}
+
+#footer {margin:1em 0 0 0px;}
+
+
+
+/* ==================== homepage =============== */
+#homesidebar {
+}
+
+#homesidebar .sponsor { }
+
+#news {}
+
+#news h1 { font-size:1.3em;}
+#news h2 { font-size:1.1em;}
+
+.infobox {
+}
+
+

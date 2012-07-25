@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+ Logo by Sylvain Lelievre
+ SVG version by Laurent Jouanneau 
+ Copyright (c) 2006-2007 by Laurent Jouanneau, 2006 Sylvain lelievre
+ You mustn't modify this logo without the permission of the authors
+ All rights reserved
+-->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="266.40887"
+   height="90.457901"
+   version="1.0"
+   id="svg2238"
+   inkscape:version="0.48.1 r9760"
+   sodipodi:docname="logo_jelix_moyen_bg_black.svg">
+  <metadata
+     id="metadata3143">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs3141" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1471"
+     inkscape:window-height="801"
+     id="namedview3139"
+     showgrid="false"
+     inkscape:zoom="1.7979882"
+     inkscape:cx="145.86302"
+     inkscape:cy="52.181165"
+     inkscape:window-x="144"
+     inkscape:window-y="134"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2238" />
+  <path
+     inkscape:connector-curvature="0"
+     id="jelix-logo-frame"
+     d="M 12.894477,0 C 5.9222923,0 0.22586486,5.6964433 0.22586486,12.668617 L 0,77.750532 c 0,6.972184 5.6964275,12.668606 12.668612,12.668612 l 30.952,0.03875 -0.02339,-5.614037 -30.928613,0.03141 c -3.996773,-5e-6 -7.1247457,-3.127972 -7.1247457,-7.124745 L 5.7697311,12.668617 c 0,-3.9967621 3.1279781,-7.1247401 7.1247459,-7.1247401 l 64.538559,0.054802 c 3.996762,0 7.12474,3.1279674 7.12474,7.1247401 l 0,65.004414 c 0,3.996778 -3.127972,7.124746 -7.12474,7.124746 l -31.142918,0 0,5.590645 31.142918,-0.04678 c 6.972179,0 12.668617,-5.696422 12.668617,-12.668612 l 0,-65.004414 c 0,-6.9721842 -5.696443,-12.66861701 -12.668617,-12.66861701 L 12.894477,0 z m 33.395641,90.419837 -4.47045,-0.0087 c 0,0 4.47045,0.0087 4.47045,0.0087 z"
+     style="fill:#f5fafc;fill-opacity:1;stroke:none;display:inline"
+     inkscape:export-filename="/home/laurent/projets/jelix/resources/newhome/logo_jelix_moyen5.png"
+     inkscape:export-xdpi="44.772213"
+     inkscape:export-ydpi="44.772213" />
+  <path
+     inkscape:connector-curvature="0"
+     id="jelix-logo-top-left"
+     d="m 38.071184,7.1277623 c 0,0 -0.02327,19.2501937 -0.03112,27.2555357 C 32.038918,30.912257 19.49132,23.559191 19.49132,23.559191 c -2.004349,-1.151891 -5.967076,-1.34923 -7.904498,1.980035 0,0 27.764187,16.025045 27.764187,16.025045 1.166466,0.674086 2.075461,0.558978 2.890878,0.09046 0.827743,-0.475598 1.355745,-1.154198 1.365398,-2.535284 0,0 0.02931,-26.607557 0.02931,-26.607557 C 43.626,10.217133 41.85446,7.1413212 38.071184,7.1277623 z"
+     style="fill:#3c90af;fill-opacity:1;fill-rule:evenodd;stroke:none;display:inline"
+     inkscape:export-filename="/home/laurent/projets/jelix/resources/newhome/logo_jelix_moyen5.png"
+     inkscape:export-xdpi="44.772213"
+     inkscape:export-ydpi="44.772213" />
+  <path
+     inkscape:connector-curvature="0"
+     id="jelix-logo-top-right"
+     d="m 75.513222,20.781161 c 0,0 -16.728295,9.699742 -23.665054,13.695615 0.0054,-6.932667 0.09958,-21.475739 0.09958,-21.475739 -0.0046,-2.311762 -1.815069,-5.8422512 -5.667008,-5.8554767 0,0 0.004,32.0570137 0.004,32.0570137 -5.45e-4,1.347237 0.553638,2.076897 1.367102,2.548806 0.825748,0.479049 1.677438,0.597009 2.878314,-0.08517 0,0 23.268369,-13.439342 23.268369,-13.439342 1.98201,-1.156559 3.59459,-4.162512 1.714696,-7.445703 z"
+     style="fill:#3c90af;fill-opacity:1;fill-rule:evenodd;stroke:none;display:inline"
+     inkscape:export-filename="/home/laurent/projets/jelix/resources/newhome/logo_jelix_moyen5.png"
+     inkscape:export-xdpi="44.772213"
+     inkscape:export-ydpi="44.772213" />
+  <path
+     inkscape:connector-curvature="0"
+     id="jelix-logo-right"
+     d="m 82.503188,60.06993 c 0,0 -16.705024,-9.583526 -23.633933,-13.592995 6.006588,-3.461626 18.648326,-10.651638 18.648326,-10.651638 1.999743,-1.159861 4.152001,-4.493022 2.23749,-7.835507 0,0 -27.76019,16.031972 -27.76019,16.031972 -1.167016,0.673144 -1.521823,1.517911 -1.523781,2.458348 -0.002,0.954641 0.321698,1.751207 1.512921,2.450103 0,0 23.007517,13.201296 23.007517,13.201296 1.99261,1.138189 5.608269,1.208053 7.51165,-2.061579 z"
+     style="fill:#3c90af;fill-opacity:1;fill-rule:evenodd;stroke:none;display:inline"
+     inkscape:export-filename="/home/laurent/projets/jelix/resources/newhome/logo_jelix_moyen5.png"
+     inkscape:export-xdpi="44.772213"
+     inkscape:export-ydpi="44.772213" />
+  <path
+     inkscape:connector-curvature="0"
+     id="jelix-logo-left"
+     d="m 7.850278,33.028289 c 0,0 16.275025,9.385068 23.203929,13.394537 -6.006583,3.461626 -18.648326,10.651629 -18.648326,10.651629 -1.999739,1.159872 -4.1520068,4.493027 -2.237485,7.835513 0,0 27.760187,-16.031969 27.760187,-16.031969 1.167005,-0.673144 1.521817,-1.517911 1.523775,-2.458343 0.002,-0.954646 -0.321693,-1.751212 -1.512921,-2.450113 0,0 -22.643663,-13.068982 -22.643663,-13.068982 -1.992615,-1.138194 -5.5421143,-1.141904 -7.445496,2.127728 z"
+     style="fill:#3c90af;fill-opacity:1;fill-rule:evenodd;stroke:none;display:inline"
+     inkscape:export-filename="/home/laurent/projets/jelix/resources/newhome/logo_jelix_moyen5.png"
+     inkscape:export-xdpi="44.772213"
+     inkscape:export-ydpi="44.772213" />
+  <path
+     inkscape:connector-curvature="0"
+     id="jelix-logo-bottom-left"
+     d="m 14.276011,72.134785 c 0,0 16.827525,-9.732823 23.764282,-13.728702 -0.0054,6.932672 -0.09958,29.240852 -0.09958,29.240852 0,0 5.667007,0.07843 5.667007,0.07843 0,0 -0.004,-34.045072 -0.004,-34.045072 5.4e-4,-1.347233 -0.553643,-2.076888 -1.367102,-2.548802 -0.825753,-0.479043 -1.677437,-0.597009 -2.878308,0.08517 0,0 -23.367603,13.505498 -23.367603,13.505498 -1.982014,1.156558 -3.594589,4.129424 -1.714695,7.412625 z"
+     style="fill:#f5fafc;fill-opacity:1;fill-rule:evenodd;stroke:none;display:inline"
+     inkscape:export-filename="/home/laurent/projets/jelix/resources/newhome/logo_jelix_moyen5.png"
+     inkscape:export-xdpi="44.772213"
+     inkscape:export-ydpi="44.772213" />
+  <path
+     inkscape:connector-curvature="0"
+     id="jelix-logo-bottom-right"
+     d="m 51.84992,87.611667 c 0,0 -0.0098,-21.140687 -0.002,-29.146035 6.00115,3.471046 18.548748,10.824112 18.548748,10.824112 2.004348,1.151891 5.96707,1.34923 7.904497,-1.980035 0,0 -27.76419,-16.025035 -27.76419,-16.025035 -1.166466,-0.674086 -2.075461,-0.558984 -2.890878,-0.09046 -0.827742,0.475598 -1.355745,1.154198 -1.365398,2.535275 0,0 0.0018,33.852438 0.0018,33.852438 0,0 5.567423,0.02974 5.567423,0.02974 z"
+     style="fill:#f5fafc;fill-opacity:1;fill-rule:evenodd;stroke:none;display:inline"
+     inkscape:export-filename="/home/laurent/projets/jelix/resources/newhome/logo_jelix_moyen5.png"
+     inkscape:export-xdpi="44.772213"
+     inkscape:export-ydpi="44.772213" />
+  <path
+     inkscape:connector-curvature="0"
+     id="jelix-logo-J-letter"
+     d="m 97.606258,84.046926 0,-11.919873 c 0,1.2e-5 0.285079,0.03564 0.855237,0.106899 0.605797,0.07128 1.1225,0.106922 1.550115,0.10691 4.16928,1.2e-5 6.25392,-2.155905 6.25393,-6.467737 l 0,-59.1183367 11.91989,0 0,56.8198817 c -3e-5,13.648182 -4.63257,20.472256 -13.89763,20.472256 l -6.681542,0"
+     style="line-height:125%;writing-mode:lr-tb;fill:#3c90af;fill-opacity:1;stroke:none;display:inline"
+     inkscape:export-filename="/home/laurent/projets/jelix/resources/newhome/logo_jelix_moyen5.png"
+     inkscape:export-xdpi="44.772213"
+     inkscape:export-ydpi="44.772213" />
+  <path
+     inkscape:connector-curvature="0"
+     id="jelix-logo-E-letter"
+     d="m 129.83805,84.046926 0,-77.2921377 31.05583,0 0,11.1715467 -19.13596,0 0,20.258448 13.79072,0 0,11.171558 -13.79072,0 0,23.09142 19.13596,0 0,11.599165 -31.05583,0"
+     style="line-height:125%;writing-mode:lr-tb;fill:#f5fafc;fill-opacity:1;stroke:none;display:inline"
+     inkscape:export-filename="/home/laurent/projets/jelix/resources/newhome/logo_jelix_moyen5.png"
+     inkscape:export-xdpi="44.772213"
+     inkscape:export-ydpi="44.772213" />
+  <path
+     inkscape:connector-curvature="0"
+     id="jelix-logo-L-letter"
+     d="m 200.44864,84.046926 0.85523,-11.54571 c -5.84416,0.03565 -9.06912,0.0891 -9.67488,0.160354 -0.57018,0.07128 -1.06907,0.106922 -1.49667,0.10691 -4.1693,1.2e-5 -6.25395,-2.155904 -6.25393,-6.467737 l 0,-59.1183366 -11.91988,0 0,56.8198816 c 0,6.948821 1.14032,12.098064 3.42096,15.447739 2.38752,3.492225 5.87974,5.167057 10.47666,5.024517 l 14.59251,-0.427618"
+     style="line-height:125%;writing-mode:lr-tb;fill:#f5fafc;fill-opacity:1;stroke:none;display:inline"
+     inkscape:export-filename="/home/laurent/projets/jelix/resources/newhome/logo_jelix_moyen5.png"
+     inkscape:export-xdpi="44.772213"
+     inkscape:export-ydpi="44.772213" />
+  <path
+     inkscape:connector-curvature="0"
+     id="jelix-logo-I-letter"
+     d="m 207.23708,84.046926 0,-77.2921377 12.1337,0 0,77.2921377 -12.1337,0"
+     style="line-height:125%;writing-mode:lr-tb;fill:#f5fafc;fill-opacity:1;stroke:none;display:inline"
+     inkscape:export-filename="/home/laurent/projets/jelix/resources/newhome/logo_jelix_moyen5.png"
+     inkscape:export-xdpi="44.772213"
+     inkscape:export-ydpi="44.772213" />
+  <path
+     inkscape:connector-curvature="0"
+     id="jelix-logo-X-letter-dark"
+     d="M 225.03673,84.046926 239.14816,44.75943 225.25054,6.7547883 l 12.3475,0 7.26953,22.7707117 0.53452,0 7.64369,-22.7707117 12.18714,0 -13.46999,36.9890517 14.64594,40.303086 -12.4544,0 -7.80404,-25.176066 -0.42762,0 -8.44549,25.176066 -12.24059,0"
+     style="line-height:125%;writing-mode:lr-tb;fill:#f5fafc;fill-opacity:1;stroke:none;display:inline"
+     inkscape:export-filename="/home/laurent/projets/jelix/resources/newhome/logo_jelix_moyen5.png"
+     inkscape:export-xdpi="44.772213"
+     inkscape:export-ydpi="44.772213" />
+  <path
+     inkscape:connector-curvature="0"
+     id="jelix-logo-X-letter-blue"
+     d="M 224.94047,84.03903 239.0519,44.751534 225.15428,6.7468921 237.64299,6.7115905 c 0,0 14.01947,36.9777215 14.01947,36.9777215 l -14.34019,40.349718 -12.3818,0"
+     style="line-height:125%;writing-mode:lr-tb;fill:#3c90af;fill-opacity:1;stroke:none;display:inline"
+     inkscape:export-filename="/home/laurent/projets/jelix/resources/newhome/logo_jelix_moyen5.png"
+     inkscape:export-xdpi="44.772213"
+     inkscape:export-ydpi="44.772213" />
+</svg>
