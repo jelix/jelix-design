@@ -635,6 +635,18 @@ code.returnvalue {}
 
 /* ===== elements books */
 
+#book-page-default-url {
+   margin:0.5em 3em 1.5em 3em; padding:5px;
+   color : #002830;
+   background-color:#F8B037;
+   -moz-border-radius:8px;
+   -webkit-border-radius:8px;
+   -o-border-radius:8px;
+   border-radius:8px;
+   text-align:center;
+}
+
+
 #book-page-header .lang, #book-page-footer .lang { text-align:right; font-size:0.8em;}
 
 #book-page-header, #book-page-footer {
