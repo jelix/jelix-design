@@ -466,6 +466,10 @@ code.returnvalue {}
         font-size:1em;
         list-style-type:none;
         list-style-position:outside;
+        border-left: 1px solid #002830;
+    }
+    #submenubar li:first-child {
+        border-left: 0px none;
     }
     #submenubar li a:hover{  text-decoration:underline; }
     #submenubar li.selected a { border-bottom: 2px solid  #FFA08F }
