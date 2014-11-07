@@ -275,7 +275,7 @@ code.returnvalue {}
     font-weight: bold;
     line-height: 1.3;
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
-    width:20em;
+    max-width:20em;
     float:left;
 }
 
@@ -755,36 +755,36 @@ div.level1, div.level2, div.level3, div.level4, div.level5, div.level6 { padding
 
 div.secedit { text-align:right; }
 div.secedit form { margin: 0 0 1em 0; }
-div.toc {
-  margin: 2em 0 2em 2em ;
+#dw__toc {
+  margin: 0em 0 2em 2em ;
   padding:10px;
   float:right;
-  width: 200px;
+  width: 160px;
   font-size: 80%;
   color : #002830;
   background-color:#eff4f6;
-  border : 1px solid;
-  border-top-color: #d4dee3;
-  border-left-color: #d4dee3;
-  border-right-color: #9bb0b9;
-  border-bottom-color: #9bb0b9;
+  border-radius: 5px;
 }
 
-div.tocheader {
+#dw__toc > h3 {
   padding: 3px;
   background-color: #2b4c53;
   text-align: left;
   font-weight:bold;
   color:white;
+  border-radius: 3px;
 }
 
-div.toctoggle { margin-top:0.3em; margin-right:3px; cursor: pointer; }
-div.toctoggle img { width:0.8em; height:0.8em; }
-div.tocinside {
- padding-top: 0.5em; padding-bottom: 0.7em;
-  border: 1px solid #2b4c53;
+#dw__toc > h3 { margin-top:0.3em; cursor: pointer; }
+#dw__toc > div {
+  border-radius: 3px;
+  padding-top: 0.5em; 
+  padding-bottom: 0.7em;
   background-color: #ffffff;
   text-align: left;
+}
+ul.toc {
+  padding-left:20px;   
 }
 
 ul.toc ul {
@@ -881,3 +881,27 @@ table.forumform th,table.forumdata th { text-align:right; vertical-align:top;}
 .search_result .search_hit { background-color:#fff8d3; }
 
 
+
+@media all and (max-width: 650px) {
+    #footer-legend {
+        float:none;
+        width:auto;
+        min-width:100px;
+    }
+}
+
+@media all and (max-width: 520px) {
+    #jelix-users h2 {
+        float: none;
+    }
+       #jelix-users-description p {
+        margin: 0px 1em 5px 1em;
+    }
+    .home-item {
+        float: none;
+        width: auto;
+    }
+    .footer-box {
+        float:none;
+    }
+}
