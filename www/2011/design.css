@@ -476,11 +476,11 @@ code.returnvalue {}
 
     #dw__search {
         display:inline;
-        /*margin: 1em 0 1em 1em;*/
-        margin:0 0 0 3em;padding:0;
+        margin:0 0 0 2em;
+        padding:0;
     }
     #qsearch__in {
-        width:80px;
+        width:8em;
         -moz-border-radius:5px;
         -webkit-border-radius:5px;
         -o-border-radius:5px;
@@ -498,6 +498,7 @@ code.returnvalue {}
        margin:0;
        width:32px;
        text-indent: -300px;
+       color:transparent;
     }
 
 #article {
