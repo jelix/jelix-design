@@ -487,7 +487,9 @@ code.returnvalue {}
         border-radius:5px;
         border:1px solid black;
     }
-    #dw__search input.button {
+    #dw__search input.button,
+    #dw__search button
+    {
        background: transparent url('icons/new-edit-find.png');
        background-repeat: no-repeat;
        background-position:center center;
@@ -512,7 +514,11 @@ code.returnvalue {}
 #article a:visited {  color : #002830;}
 #article a:hover { color: #0f82af; background-color: #d7e7eb; }
 #article a.wikilink2 { color:#ed5a02;}
-#article input.button, #article-footer input.button{
+#article input.button,
+#article-footer input.button,
+#article button,
+#article-footer button
+{
    background-color:#4397b6;
    border-left: 1px solid #99cbde;
    border-right: 1px solid  #225365;
