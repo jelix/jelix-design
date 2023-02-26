@@ -194,7 +194,7 @@ code.returnvalue {}
 
 #footer {
     clear:both;
-    min-height:170px;
+    margin-top:2em;
     background-color:#002830;
     background:linear-gradient(to bottom, #2b4c53,#27474E 40%, #244148 60%, #002830);
     color:white;
@@ -203,19 +203,31 @@ code.returnvalue {}
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     box-shadow: 0 1px 9px rgba(0, 0, 0, 0.6), 0 -1px 0 rgba(255, 255, 255, 0.2) inset;
 }
+
+#footer .top-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: normal;
+    align-items: normal;
+    align-content: normal;
+}
+
 #footer a { color:white;}
 #footer-legend {
     font-size:0.7em;
     color:#CECECE;
     width:150px;
-    float:right;
     text-align:right;
 }
 #footer li{ margin-bottom: 5px;
     
 }
 .footer-box {
-    float:left;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
     margin-right:2em;
 }
 
@@ -634,7 +646,21 @@ code.returnvalue {}
 #article-footer .wfooterinfo { font-size:0.8em; float:left; }
 #article-footer #authinfo { clear:both; }
 
+.directory-content {
+    width:100%;
+}
 
+.directory-content tr:nth-child(even) {
+    background-color: #effafd;
+}
+.directory-content tr td:first-child {
+    font-size: 1.2em;
+    width:60%;
+}
+.directory-content td.filesize {
+    text-align:right;
+    width:15%;
+}
 
 #content-footer {
     
@@ -896,12 +922,5 @@ table.forumform th,table.forumdata th { text-align:right; vertical-align:top;}
     }
        #jelix-users-description p {
         margin: 0px 1em 5px 1em;
-    }
-    .home-item {
-        float: none;
-        width: auto;
-    }
-    .footer-box {
-        float:none;
     }
 }
