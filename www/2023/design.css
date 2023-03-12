@@ -27,7 +27,6 @@ pre {
   background-repeat:repeat-y;
   color:black;
   overflow:auto;
-  font-size:1.2em;
 }
 
 kbd {
@@ -41,13 +40,11 @@ var, code.literal {
    background:#fff4d9;
    font-weight:bold;
    font-family:courier new, courier,monospace;
-   font-size:1.1em;
 }
 
 code {
    background-color:#f1f1ee;
    font-family:courier new, courier, monospace;
-   font-size:1.1em;
    font-weight:bold;
 }
 
@@ -529,6 +526,7 @@ code.returnvalue {}
     border-radius:8px;
     clear:both;
     min-height:400px;
+    font-size: 1.1em;
 }
 
 #article a { color:#3f6f7a; text-decoration:underline; }
@@ -555,7 +553,10 @@ code.returnvalue {}
  color: #ddd;
 }
 
-#article ul { list-style-image:url(puce_page.png); }
+#article ul {
+    list-style-image:url(puce_page.png);
+    padding-inline-start: 1.5em;
+}
 #article li { padding-bottom:0.3em;}
 #article li.open { list-style-image: url(open.gif); }
 #article li.closed { list-style-image: url(closed.gif); }
@@ -584,7 +585,10 @@ code.returnvalue {}
 
 
 #article .bookinfos { text-align:center; font-size:1.2em; margin:2em auto; padding:1em; border:2px solid black; }
-
+#article .bookinfos .authors ul {
+    list-style-image: none;
+    list-style-type: none;
+}
 #article .booklegalnotice { margin:1em auto; padding:0.5em; border:1px dashed black; }
 #article .bookpagelegalnotice { display:none; }
 
