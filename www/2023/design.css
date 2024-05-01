@@ -905,6 +905,78 @@ table.forumform th,table.forumdata th { text-align:right; vertical-align:top;}
 .search_result .search_hit { background-color:#fff8d3; }
 
 
+.page-links-container,
+.record-pages-list
+{
+    text-align: right;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+.page-links-container ul,
+.record-pages-list ul
+{
+    list-style: none;
+    display:inline;
+}
+
+.pagelinks .pagelinks-disabled {
+    display: none;
+    background-color: white;
+}
+
+.pagelinks li {
+    list-style: none;
+    display:inline-block;
+    padding:4px 10px;
+    font-size:0.8em;
+    -moz-border-radius:5px;
+    -webkit-border-top-right-radius: 15px;
+    -webkit-border-top-left-radius: 15px;
+    -webkit-border-bottom-right-radius: 15px;
+    -webkit-border-bottom-left-radius: 15px;
+    -o-border-radius:15px 15px 15px 15px;
+    border-radius:15px 15px 15px 15px ;
+    z-index:100;
+    -moz-box-shadow: #999 3px 3px 8px 0px;
+    -webkit-box-shadow: #999  3px 3px 8px;
+    -o-box-shadow: #999 3px 3px 8px 0px;
+    box-shadow: #999 3px 3px 8px 0px;
+
+    background:-moz-linear-gradient(top, #2b4c53,#27474E 40%, #244148 60%, #002830);
+    background-color:#002830;
+    color:white;
+    margin-right: 4px;
+}
+
+
+#article ul.pagelinks li a { color:white; text-decoration:none;}
+#article ul.pagelinks li a:hover{background-color:#002830;text-decoration:underline;}
+
+
+.pagelinks li.pagelinks-current {
+    list-style: none;
+    display:inline-block;
+    padding:4px 10px;
+    font-size:0.8em;
+    -moz-border-radius:5px;
+    -webkit-border-top-right-radius: 15px;
+    -webkit-border-top-left-radius: 15px;
+    -webkit-border-bottom-right-radius: 15px;
+    -webkit-border-bottom-left-radius: 15px;
+    -o-border-radius:15px 15px 15px 15px;
+    border-radius:15px 15px 15px 15px ;
+    z-index:100;
+    -moz-box-shadow: #999 3px 3px 8px 0px;
+    -webkit-box-shadow: #999  3px 3px 8px;
+    -o-box-shadow: #999 3px 3px 8px 0px;
+    box-shadow: #999 3px 3px 8px 0px;
+
+    background:-moz-linear-gradient(top, #87B2C3,#87B2C3 40%, #87B2C3 60%, #87B2C3);
+    background-color:#87B2C3;
+    color:white;
+    margin-right: 4px;
+}
+
 
 @media all and (max-width: 650px) {
     #footer-legend {
